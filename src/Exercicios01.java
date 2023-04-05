@@ -5,6 +5,7 @@ public class Exercicios01 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 	// 1.
+		/*
 		int a;
 		System.out.println("Determine o valor de 'a':");
 		a = sc.nextInt();
@@ -13,23 +14,63 @@ public class Exercicios01 {
 		b = sc.nextInt();
 		int soma = a + b;
 		System.out.println("O valor da soma = " + soma);
-		
+		*/
 	// 2.
+		/*
 		double pi = 3.14159;
 		double r;
 		System.out.println("Determine o tamanho do raio:");
 		r = sc.nextDouble();
 		double area = pi * Math.pow(r, 2.0);
 		System.out.println("O valor da área = " + area);
-		
+		*/
 	// 3.
+		/*
+		int A;
+		System.out.println("Determine o valor de 'A':");
+		A = sc.nextInt();
+		int B;
+		System.out.println("Determine o valor de 'B':");
+		B = sc.nextInt();
+		int C;
+		System.out.println("Determine o valor de 'C':");
+		C = sc.nextInt();
+		int D;
+		System.out.println("Determine o valor de 'D':");
+		D = sc.nextInt();
+		
+		int produto = (A * B) - (C * D);
+		System.out.println("A diferença entre os produtos = " + produto);
+		*/
+	// 4.
+		/*
+		int funcionarioId;
+		double hrsTrabalhadas;
+		double vlrHora = 30;
+		double salario;
+		
+		System.out.println("Qual o número de identificação do funcionário?");
+		funcionarioId = sc.nextInt();
+		System.out.printf("Quantas horas o funcionário %s trabalhou?%n", funcionarioId);
+		hrsTrabalhadas = sc.nextDouble();
+		salario = (hrsTrabalhadas * vlrHora);
+		
+		System.out.printf("Por hora, cada funcionário recebe: R$: %.2f%n", vlrHora);
+		System.out.printf("Portanto o salário do funcionário %s é de R$: %.2f%n", funcionarioId, salario);
+		*/
+	// 5.
 		
 		
+	// 6.
+		// a) triângulo -> (base * altura) / 2.0
 		
+		// b) círculo -> pi*raio^2
 		
+		// c) trapézio -> ((BsMaior + bsMenor) * altura) / 2.0
 		
+		// d) quadrado -> lado^2
 		
-		
+		// e) retângulo -> base * altura
 		sc.close();
 	}
 }
