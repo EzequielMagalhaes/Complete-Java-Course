@@ -65,6 +65,7 @@ public class Exercicios01 {
 		// a) triângulo -> (base * altura) / 2.0
 		
 		// b) círculo -> pi*raio^2
+		// π = 3.14159;
 		
 		// c) trapézio -> ((BsMaior + bsMenor) * altura) / 2.0
 		
