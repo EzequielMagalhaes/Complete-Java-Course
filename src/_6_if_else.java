@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _6_if_else {
+public class _6_If_Else {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int hora;
