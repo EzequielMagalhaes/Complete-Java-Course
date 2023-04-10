@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _5_FuncoesMatematicas {
+public class _05_FuncoesMatematicas {
 	public static void main(String[] args) {
 		double x = 3.0;
 		double y = 4.0;
@@ -52,6 +52,9 @@ public class _5_FuncoesMatematicas {
 			  System.out.println("O valor de x1 = " + x1);
 			  System.out.println("O valor de x2 = " + x2);
 			}
+		
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }

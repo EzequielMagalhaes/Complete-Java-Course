@@ -37,7 +37,8 @@ public class Exercícios6 {
 		
 		System.out.println("==========================================");
 		
-		System.out.printf("Programa terminou...%nAté mais! =)");
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }

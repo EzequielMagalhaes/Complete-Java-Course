@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class _2_SaídaDeDados {
+public class _02_SaídaDeDados {
 	public static void main(String[] args) {
 		double x = 10.35784;
 		String nome = "Maria";
@@ -18,10 +18,13 @@ public class _2_SaídaDeDados {
 		
 		System.out.printf("%s tem %d anos e ganha R$:%.2f reais%n",nome, idade,renda);
 		
-		/* %s - texto;
-		 * %d - inteiro;
-		 * %f - ponto flutuante;
-		 * %n - quebra de linha;
-		 */
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 	}
 }
+
+/* %s - texto;
+ * %d - inteiro;
+ * %f - ponto flutuante;
+ * %n - quebra de linha;
+ */

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _4_EntradaDeDados_Pt2 {
+public class _04_EntradaDeDados_Pt2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -22,6 +22,9 @@ public class _4_EntradaDeDados_Pt2 {
 		System.out.println(s1);
 		System.out.println(s2);
 		System.out.println(s3);
+		
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }

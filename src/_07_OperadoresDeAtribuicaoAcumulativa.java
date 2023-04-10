@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _7_OperadoresDeAtribuicaoAcumulativa {
+public class _07_OperadoresDeAtribuicaoAcumulativa {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -15,6 +15,9 @@ public class _7_OperadoresDeAtribuicaoAcumulativa {
 			conta += (minutos - 100) * 2.0;
 		}
 		System.out.printf("Valor da conta R$: %.2f%n",conta);
+		
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }

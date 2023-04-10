@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _8_SwitchCase {
+public class _08_SwitchCase {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -42,6 +42,9 @@ public class _8_SwitchCase {
 		}else {			
 			System.out.println("Dia da semana: " + dia);
 		}
+		
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }

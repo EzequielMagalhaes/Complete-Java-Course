@@ -123,7 +123,8 @@ public class Exercicios1_5 {
 		System.out.printf("e) Área do retangulo é aproximadamente: %n%.2f%n",retangulo);
 		System.out.println("==========================================");
 		
-		System.out.printf("Programa terminou...%nAté mais! =)");
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }

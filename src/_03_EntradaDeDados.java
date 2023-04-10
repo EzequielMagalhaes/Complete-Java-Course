@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-public class _3_EntradaDeDados {
+public class _03_EntradaDeDados {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US); // para considerar o separador de decimais como ponto, ao invés de vírgula;
 		// PRECISA ESTAR ANTES DA DECLARAÇÃO DO SCANNER;
@@ -43,6 +43,8 @@ public class _3_EntradaDeDados {
 		System.out.println(y);
 		System.out.println(z);
 		
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }
