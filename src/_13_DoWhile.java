@@ -14,19 +14,17 @@ public class _13_DoWhile {
 			System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
 			System.out.println("Deseja repetir? (s/n)");
 			resposta = sc.next().charAt(0);
-			if(resposta != 's') {
+			/*if(resposta != 's') {
 				System.out.println("Não entendi o comando por favor digite novamente.");
 				System.out.println("Deseja repetir? (s/n)");
 				resposta = sc.next().charAt(0);
-			}
+			}*/
 		}while(resposta != 'n');
-		
 			System.out.println("Programa terminou!");
 			System.out.println("Até a próxima =)");
 			sc.close();
 	}
 }
-
 /*		DO WHILE
 *	do {
 *		condição 1
