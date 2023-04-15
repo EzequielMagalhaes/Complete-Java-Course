@@ -23,7 +23,6 @@ public class _12_For{
 		sc.close();
 	}
 }
-
 /*			FOR
 * - É uma estrutura de controle que repete um bloco de comandos para um certo intervalo de valores.
 *
