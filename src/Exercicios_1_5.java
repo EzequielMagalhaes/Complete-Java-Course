@@ -92,11 +92,9 @@ public class Exercicios_1_5 {
 		float C;
 		System.out.println("Determine o valor de 'C':");
 		C = sc.nextInt();
-		
 		// a) triângulo -> (base * altura) / 2.0
 		float triangulo =(float) ((A * C)/2.0);
 		System.out.printf("a) Área do triangulo é aproximadamente: %n%.2f%n",triangulo);
-		
 		// b) círculo -> pi*raio^2
 		// π = 3.14159;
 		//float pi = (float)3.14159; -> nao precisa declarar pq ja existe anteriormente 
@@ -105,15 +103,12 @@ public class Exercicios_1_5 {
 		raio = sc.nextFloat();
 		float circulo = (float)(pi*Math.pow(raio, 2.0));
 		System.out.printf("b) Área do círculo é aproximadamente: %n%.2f%n",circulo);
-		
 		// c) trapézio -> ((BsMaior + bsMenor) * altura) / 2.0
 		float trapezio = (float)(((A + B)*C)/2.0);
 		System.out.printf("c) Área do trapezio é aproximadamente: %n%.2f%n",trapezio);
-		
 		// d) quadrado -> lado^2
 		float quadrado = (float)(Math.pow(B, 2.0));
 		System.out.printf("d) Área do quadrado é aproximadamente: %n%.2f%n",quadrado);
-		
 		// e) retângulo -> base * altura
 		float retangulo = (float)(A * B);
 		System.out.printf("e) Área do retangulo é aproximadamente: %n%.2f%n",retangulo);
@@ -124,9 +119,7 @@ public class Exercicios_1_5 {
 		sc.close();
 	}
 }
-
 /*EXERCÍCIOS
-
 1. Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
 mensagem explicativa, conforme exemplos.
 *		
