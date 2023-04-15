@@ -38,7 +38,6 @@ public class Exercicios_1_5 {
 		int z;
 		System.out.println("Determine o valor de 'D':");
 		z = sc.nextInt();
-		
 		int produto = (w * x) - (y * z);
 		System.out.println("A diferença entre os produtos = " + produto);
 		System.out.println("==========================================");
@@ -54,7 +53,6 @@ public class Exercicios_1_5 {
 		System.out.printf("Quantas horas o funcionário '%s' trabalhou?%n", funcionarioId);
 		hrsTrabalhadas = sc.nextDouble();
 		salario = (hrsTrabalhadas * vlrHora);
-		
 		System.out.printf("Por hora, cada funcionário recebe: R$: %.2f%n", vlrHora);
 		System.out.printf("Portanto o salário do funcionário '%s' é de R$: %.2f%n", funcionarioId, salario);
 		System.out.println("==========================================");
@@ -69,7 +67,6 @@ public class Exercicios_1_5 {
 		System.out.printf("Qual o valor, em reais, de cada peça '%d'?%n",codigoPc1);
 		double valorUnitarioPc1;
 		valorUnitarioPc1 = sc.nextDouble();
-		
 		System.out.printf("Qual o código da segunda peça?%n");
 		int codigoPc2;
 		codigoPc2 = sc.nextInt();
@@ -79,7 +76,6 @@ public class Exercicios_1_5 {
 		System.out.printf("Qual o valor, em reais, de cada peça '%d'?%n",codigoPc2);
 		double valorUnitarioPc2;
 		valorUnitarioPc2 = sc.nextDouble();
-		
 		double soma1 = (numeroPc1 * valorUnitarioPc1);
 		double soma2 = (numeroPc2 * valorUnitarioPc2);
 		System.out.printf("O total a pagar no primeiro pedido é: %.2f reais%n", soma1);
