@@ -13,6 +13,16 @@ public class _14_OperadoresBitwise {
 		System.out.println(n1 & n2);
 		System.out.println(n1 | n2);
 		System.out.println(n1 ^ n2);
+				
+		System.out.println("Determine o valor para a variável 'n':");
+		int n = sc.nextInt();
+		int mask = 0b00100000; //pode utilizar a representação binária ou utilização convencional de um inteiro, que seria '32'
+		
+		if((n & mask) != 0){
+			System.out.println("6th bit is true!");
+		}else{
+			System.out.println("6th bit is false");
+		}
 		
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
