@@ -5,8 +5,7 @@ public class Exercicios_12 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-	//BONUS
-		int x = 3;
+	//BONUS	
 		int y = 0;
 		
 		for (int i = 0; i < 5; i++) {
