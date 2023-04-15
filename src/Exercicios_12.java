@@ -5,7 +5,12 @@ public class Exercicios_12 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 	//BONUS	
+=======
+	//BONUS
+		int x = 3;
+>>>>>>> 2e1399b (Salvando o curso)
 		int y = 0;
 		
 		for (int i = 0; i < 5; i++) {
