@@ -26,7 +26,6 @@ public class Exercicios_11 {
 		sc.close();
 	}
 }
-
 /*EXERCÍCIOS
 
 1. Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha
