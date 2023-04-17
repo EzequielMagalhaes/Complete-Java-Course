@@ -1,1 +1,6 @@
-/bin/
+#Eclipse
+bin/
+
+#VsCode
+.vscode/
+.code-workspace
