@@ -2,16 +2,16 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Triangle;
+import entities.Triangulo;
 
-public class _18_ProgramacaoOrientadaAObjetos{
+public class _18_CriandoClasseComAtributos{
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Triangle x, y;
-		x = new Triangle(); // Instanciando o objeto X
-		y = new Triangle(); // Instanciando o objeto Y
+		Triangulo x, y;
+		x = new Triangulo(); // Instanciando o objeto X
+		y = new Triangulo(); // Instanciando o objeto Y
 		System.out.println("Determine as TRÊS medidas do triangulo X: ");
 		x.a = sc.nextDouble();
 		x.b = sc.nextDouble();
