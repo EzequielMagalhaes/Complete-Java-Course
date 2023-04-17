@@ -17,4 +17,14 @@ public class Produto {
 	public void removerProdutos(int quantidade){
 		this.quantidade -= quantidade;
 	}
+	
+	public String toString(){
+		return nome
+			+ ", R$: "
+			+ String.format("%.2f",preco) //para formatar o resultado final e ficar com duas casas decimais.
+			+ ", "
+			+ quantidade
+			+ " unidades, Total: R$: "
+			+ String.format("%.2f",totalEmEstoque());
+	}
 }
