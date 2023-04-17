@@ -1,3 +1,4 @@
+package application;
 
 public class _01_OlaMundo {
 	public static void main(String[] args) {

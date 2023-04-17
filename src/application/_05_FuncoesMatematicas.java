@@ -1,3 +1,4 @@
+package application;
 import java.util.Scanner;
 
 public class _05_FuncoesMatematicas {
