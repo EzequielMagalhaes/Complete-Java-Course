@@ -8,6 +8,8 @@ public class _23_MembrosEstaticos_Pt2{
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		
+		
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
