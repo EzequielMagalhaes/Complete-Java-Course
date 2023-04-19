@@ -1,4 +1,5 @@
 package application;
+
 import java.util.Scanner;
 
 public class _04_EntradaDeDados_Pt2 {

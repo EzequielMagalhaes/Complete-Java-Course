@@ -1,4 +1,5 @@
 package application;
+
 import java.util.Scanner;
 
 public class _06_If_Else {
