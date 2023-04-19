@@ -2,7 +2,7 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import utils.Calculator;
+import utils.Calculator1;
 
 /*	versão 1.
 public class _22_MembrosEstaticos extends Calculator{
@@ -28,12 +28,12 @@ public class _22_MembrosEstaticos extends Calculator{
 		}
 	}
 */
-/*	versão 2.
+//	versão 2.
 public class _22_MembrosEstaticos {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		Calculator calc = new Calculator(); // Excluí o 'static' da classe 'utils'. Para dar continuidade,
+		Calculator1 calc = new Calculator1(); // Excluí o 'static' da classe 'utils'. Para dar continuidade,
 											// é necessário instanciar um objeto 'calc' a partir de 'Calculator'.
 		System.out.println("Insira o raio: ");
 		double raio = sc.nextDouble();
@@ -43,27 +43,13 @@ public class _22_MembrosEstaticos {
 		System.out.printf("Circunferencia: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
 		System.out.printf("PI: %.2f%n", calc.PI);
-*/
-//	versão 3.
-public class _22_MembrosEstaticos{
-	
-	public static void main(String[] args) {
-		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Insira o raio: ");
-		double raio = sc.nextDouble();
-		double c = Calculator.circunferencia(raio);
-		double v = Calculator.volume(raio);
 		
-		System.out.printf("Circunferencia: %.2f%n", c);
-		System.out.printf("Volume: %.2f%n", v);
-		System.out.printf("PI: %.2f%n", Calculator.PI);
-
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
 	}
 }
+
 /*		MEMBROS ESTÁTICOS
 * ° Também chamados membros de clase
 * 	- Em oposição a membros de instância 
