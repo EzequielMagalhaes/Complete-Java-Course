@@ -10,8 +10,8 @@ public class _25_Sobrecarga {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Produto2 p = new Produto2(); // Escolhendo o construtor padrão só para exxemplificar.
-		
+		//Produto2 p = new Produto2(); // Escolhendo o construtor padrão só para exemplificar.
+
 		System.out.println("Insira os dados do produto: ");
 		System.out.print("Nome: ");
 		String nome = sc.nextLine();
