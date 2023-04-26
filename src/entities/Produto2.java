@@ -7,7 +7,7 @@ public class Produto2 {
 	public int quantidade;
 	
 	public Produto2(String nome, double preco, int quantidade){
-		this.nome = nome;
+		this.nome = nome; //" this.nome " está acessando o nome do 'objeto'. Já o " nome " está acessando a variável local do 'construtor'.
 		this.preco = preco;
 		this.quantidade = quantidade;
 	}
@@ -16,8 +16,8 @@ public class Produto2 {
 		return preco * quantidade;
 	}
 	
-	public void addProdutos(int quantidade){ // para diferenciar o atributo da classe (l.6), com o parâmetro do método (l.13).
-		this.quantidade += quantidade; 		 // usa o 'this' , que é uma palavra reservada que significa uma autoreferência para o objeto.
+	public void addProdutos(int quantidade){
+		this.quantidade += quantidade; // usa o " this " , que é uma palavra reservada que significa uma autoreferência para o objeto.
 	}
 	
 	public void removerProdutos(int quantidade){
@@ -27,10 +27,16 @@ public class Produto2 {
 	public String toString(){
 		return nome
 			+ ", R$: "
-			+ String.format("%.2f",preco) //para formatar o resultado final e ficar com duas casas decimais.
+			+ String.format("%.2f",preco)
 			+ ", "
 			+ quantidade
 			+ " unidades, Total: R$: "
 			+ String.format("%.2f",totalEmEstoque());
 	}
 }
+/*					PALAVRA 'THIS'
+	° É uma referência para o próprio objeto.
+	° Usos comuns:
+		- Diferenciar atributos de variáveis locais.
+		- Passar o próprio objeto como argumento na chamada de um método ou construtor.
+*/

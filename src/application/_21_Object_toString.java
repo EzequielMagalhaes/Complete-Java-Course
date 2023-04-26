@@ -35,9 +35,9 @@ public class _21_Object_toString {
 		sc.close();
 	}
 }
-/* 'Object' possui os seguintes métodos:
- *	°getClass > retorna o tipo do objeto.
- *	°equals > compara se objeto é igual a outro.
- * 	°hashCode > retorna um código hash do objeto
- *	°toString > converte o objeto para String.
+/*	'Object' possui os seguintes métodos:
+ *		°getClass > retorna o tipo do objeto.
+ *		°equals > compara se objeto é igual a outro.
+ * 		°hashCode > retorna um código hash do objeto
+ *		°toString > converte o objeto para String.
 */

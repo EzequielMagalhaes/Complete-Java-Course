@@ -5,7 +5,7 @@ import java.util.Scanner;
 import entities.Produto2;
 
 public class _24_Construtores {
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -16,10 +16,10 @@ public class _24_Construtores {
 		double preco = sc.nextDouble();
 		System.out.print("Quantidade em estoque: ");
 		int quantidade = sc.nextInt();
-		
 		Produto2 produto = new Produto2(nome, preco, quantidade);
-		System.out.println(); // string vazia, só para saltar linha.
-		System.out.println("Dados do produto: " + produto); //nem precisa puxar o método 'toString()' , o eclipse já reconhece.
+		
+		System.out.println();
+		System.out.println("Dados do produto: " + produto);
 		System.out.println();
 		System.out.print("Insira o número de produtos para serem adicionados ao estoque: ");
 		quantidade = sc.nextInt();
@@ -37,12 +37,12 @@ public class _24_Construtores {
 		sc.close();
 	}
 }
-/*			CONSTRUTOR
-*	° É uma operação especial da classe, que executa no momento da instanciação do objeto.
-*	° Usos comuns:
-*		- Iniciar valores dos atributos.
-*		- Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência).
-*	° Se um construtor customizado não for especificado, a classe disponibilizaz o construtor padrão.
-*		- Produto p = new Produto();
-*	° É possível especificar mais de um construtor na mesma classe (sobrecarga).
+/*				CONSTRUTOR
+	° É uma operação especial da classe, que executa no momento da instanciação do objeto.
+	° Usos comuns:
+		- Iniciar valores dos atributos.
+		- Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência).
+	° Se um construtor customizado não for especificado, a classe disponibilizaz o construtor padrão.
+		- Produto p = new Produto();
+	° É possível especificar mais de um construtor na mesma classe (sobrecarga).
 */
