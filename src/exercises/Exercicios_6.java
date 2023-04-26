@@ -8,19 +8,53 @@ public class Exercicios_6 {
 		Scanner sc = new Scanner(System.in);
 	//1.
 		System.out.printf("EXERCÍCIO 1%n");
-		
+		System.out.println("Digite o número inteiro:");
+		int num1 = sc.nextInt();
+		if(num1 > 0){
+			System.out.println("O número é positivo!");
+		}else if(num1 == 0){
+			System.out.println("O número é zero!");
+		}else{
+			System.out.println("O número é negativo!");
+		}
 		System.out.println("==========================================");
 	//2.
 		System.out.printf("EXERCÍCIO 2%n");
-		
+		System.out.println("Digite o número inteiro:");
+		int num2 = sc.nextInt();
+		if(num2 % 2 == 0){
+			System.out.println("O número é par!");
+		}else{
+			System.out.println("O número é ímpar!");
+		}
 		System.out.println("==========================================");
 	//3.
 		System.out.printf("EXERCÍCIO 3%n");
-		
+		System.out.println("Digite o primeiro número inteiro:");
+		int A = sc.nextInt();
+		System.out.println("Digite o segundo número inteiro:");
+		int B = sc.nextInt();
+		if(A % B == 0){
+			System.out.println("São múltiplos!");
+		}else if(B % A == 0){
+			System.out.println("São múltiplos!");
+		}else{
+			System.out.println("Não são múltiplos!");
+		}
 		System.out.println("==========================================");
 	//4.
 		System.out.printf("EXERCÍCIO 4%n");
-		
+		System.out.println("Digite a hora inicial:");
+		int hrInicial = sc.nextInt();
+		System.out.println("Digite a hora final:");
+		int hrFinal = sc.nextInt();
+		int duracao;
+		if(hrInicial < hrFinal){
+			duracao = hrInicial - hrFinal;
+		}else{
+			duracao = 24 - hrInicial + hrFinal;
+		}
+		System.out.printf("A duração do jogo foi de %d horas%n", duracao);
 		System.out.println("==========================================");
 	//5.
 		System.out.printf("EXERCÍCIO 5%n");

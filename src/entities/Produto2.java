@@ -1,9 +1,16 @@
+//	NOVA CLASSE PARA DEMONSTRAR O MÉTODO CONSTRUTOR //
 package entities;
 
-public class Produto {
+public class Produto2 {
 	public String nome;
 	public double preco;
 	public int quantidade;
+	
+	public Produto2(String nome, double preco, int quantidade){
+		this.nome = nome;
+		this.preco = preco;
+		this.quantidade = quantidade;
+	}
 	
 	public double totalEmEstoque(){
 		return preco * quantidade;
