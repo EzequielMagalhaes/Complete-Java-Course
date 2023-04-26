@@ -6,10 +6,18 @@ public class Produto2 {
 	public double preco;
 	public int quantidade;
 	
+	public Produto2(){ // Caso queira manter o construtor padrão e não usar algum personalizado.
+	}
+	
 	public Produto2(String nome, double preco, int quantidade){
 		this.nome = nome; //" this.nome " está acessando o nome do 'objeto'. Já o " nome " está acessando a variável local do 'construtor'.
 		this.preco = preco;
 		this.quantidade = quantidade;
+	}
+	//SOBRECARGA
+	public Produto2(String nome, double preco){
+		this.nome = nome;
+		this.preco = preco;
 	}
 	
 	public double totalEmEstoque(){
