@@ -1,15 +1,28 @@
 package application;
 
-import java.util.Locale;
-import java.util.Scanner;
-
 public class _27_Getters_Setters {
-	public static void main(String[] args) {
-		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Programa terminou!");
-		System.out.println("Até a próxima =)");
-		sc.close();
+	
+	private String nome;
+	private double preco;
+
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
 	}
 }
+/*			GETTER E SETTERS
+	° Botão direito do mouse > Source > Generate Getters and Setters...
+	
+		ou
+		
+	° ALT + SHIFT + S + R
+*/
