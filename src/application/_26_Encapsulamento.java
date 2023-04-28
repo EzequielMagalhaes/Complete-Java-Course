@@ -16,10 +16,12 @@ public class _26_Encapsulamento {
 		double preco = sc.nextDouble();
 		Produto3 produto = new Produto3();
 		
+		System.out.println("O nome do produto era: " + nome);
+		System.out.printf("O preço por unidade era: %.2f%n",preco);
 		produto.setNome("Computador");
 		System.out.println("Nome atualizado: " + produto.getNome());
 		produto.setPreco(1200.00);
-		System.out.println("Preço atualizado: " + produto.getPreco());
+		System.out.printf("Preço atualizado: %.2f%n",produto.getPreco());
 		
 		System.out.println();
 		System.out.println("Dados do produto: " + produto);

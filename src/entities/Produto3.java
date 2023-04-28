@@ -9,40 +9,36 @@ public class Produto3{
 	public Produto3(){
 	}
 	
-	public String getNome() {
+	public String getNome(){
 		return nome;
 	}
 
-	public void setNome(String nome) {
+	public void setNome(String nome){
 		this.nome = nome;
 	}
 
-	public double getPreco() {
+	public double getPreco(){
 		return preco;
 	}
 
-	public void setPreco(double preco) {
+	public void setPreco(double preco){
 		this.preco = preco;
 	}
 
-	public int getQuantidade() {
+	public int getQuantidade(){
 		return quantidade;
 	}
 
-	public void setQuantidade(int quantidade) {
-		this.quantidade = quantidade;
-	}
-
-	public double totalEmEstoque(){
-		return preco * quantidade;
-	}
-	
 	public void addProdutos(int quantidade){
 		this.quantidade += quantidade;
 	}
 	
 	public void removerProdutos(int quantidade){
 		this.quantidade -= quantidade;
+	}
+	
+	public double totalEmEstoque(){
+		return preco * quantidade;
 	}
 	
 	public String toString(){
