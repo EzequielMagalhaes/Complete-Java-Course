@@ -4,14 +4,14 @@ public class _27_Getters_Setters {
 	
 	private String nome;
 	private double preco;
-
+//	NOME
 	public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
+// PREÇO
 	public double getPreco() {
 		return preco;
 	}
