@@ -6,7 +6,7 @@ public class Exercicios_6 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-	//1.
+	/*1.
 		System.out.printf("EXERCÍCIO 1%n");
 		System.out.println("Digite o número inteiro:");
 		int num1 = sc.nextInt();
@@ -18,7 +18,8 @@ public class Exercicios_6 {
 			System.out.println("O número é negativo!");
 		}
 		System.out.println("==========================================");
-	//2.
+	*/
+	/*2.
 		System.out.printf("EXERCÍCIO 2%n");
 		System.out.println("Digite o número inteiro:");
 		int num2 = sc.nextInt();
@@ -28,7 +29,8 @@ public class Exercicios_6 {
 			System.out.println("O número é ímpar!");
 		}
 		System.out.println("==========================================");
-	//3.
+	*/
+	/*3.
 		System.out.printf("EXERCÍCIO 3%n");
 		System.out.println("Digite o primeiro número inteiro:");
 		int A = sc.nextInt();
@@ -42,7 +44,8 @@ public class Exercicios_6 {
 			System.out.println("Não são múltiplos!");
 		}
 		System.out.println("==========================================");
-	//4.
+	*/
+	/*4.
 		System.out.printf("EXERCÍCIO 4%n");
 		System.out.println("Digite a hora inicial:");
 		int hrInicial = sc.nextInt();
@@ -54,12 +57,44 @@ public class Exercicios_6 {
 		}else{
 			duracao = 24 - hrInicial + hrFinal;
 		}
-		System.out.printf("A duração do jogo foi de %d horas%n", duracao);
+		System.out.printf("O jogo durou %d hora(s)%n", duracao);
 		System.out.println("==========================================");
-	//5.
+	*/
+	/*5.
 		System.out.printf("EXERCÍCIO 5%n");
-		
+		System.out.println("TABELA DE LANCHES");
+		System.out.println("CÓDIGO - ESPECIFICAÇÃO - PREÇO");
+		System.out.println("1      Cachorro quente   R$: 4.00");
+		System.out.println("2      X-Salada		 R$: 4.50");
+		System.out.println("3      X-Bacon		 R$: 5.00");
+		System.out.println("4      Torrada Simples   R$: 2.00");
+		System.out.println("5      Refrigerante   	 R$: 1.50");
+		System.out.println("Insira o código do lanche que você deseja:");
+		int A = sc.nextInt();
+		if(A > 5){
+			System.out.println("Favor inserir um código de lanche válido!");
+			System.out.printf("EXERCÍCIO 5%n");
+			System.out.println("TABELA DE LANCHES");
+			System.out.println("CÓDIGO - ESPECIFICAÇÃO - PREÇO");
+			System.out.println("1      Cachorro quente   R$: 4.00");
+			System.out.println("2      X-Salada		 R$: 4.50");
+			System.out.println("3      X-Bacon		 R$: 5.00");
+			System.out.println("4      Torrada Simples   R$: 2.00");
+			System.out.println("5      Refrigerante   	 R$: 1.50");
+			System.out.println("Insira o código do lanche que você deseja:");
+			A = sc.nextInt();
+			System.out.println("Insira a quantidade desse pedido:");
+			int B = sc.nextInt();
+			int valorTotal = A * B;
+			System.out.printf("O valor total do lanche vai ser: R$: %d reais%n",valorTotal);
+		}else{
+			System.out.println("Insira a quantidade desse pedido:");
+			int B = sc.nextInt();
+			int valorTotal = A * B;
+			System.out.printf("O valor total do lanche vai ser: R$: %d reais%n",valorTotal);
+		}
 		System.out.println("==========================================");
+	*/
 	//6.
 		System.out.printf("EXERCÍCIO 6%n");
 		
