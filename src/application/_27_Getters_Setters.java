@@ -20,9 +20,9 @@ public class _27_Getters_Setters {
 	}
 }
 /*			GETTER E SETTERS
-	° Botão direito do mouse > Source > Generate Getters and Setters...
-	
-		ou
-		
-	° ALT + SHIFT + S + R
+ *	° Botão direito do mouse > Source > Generate Getters and Setters...
+ *	
+ *		ou
+ *		
+ *	° ALT + SHIFT + S + R
 */
