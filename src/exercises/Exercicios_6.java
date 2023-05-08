@@ -95,14 +95,40 @@ public class Exercicios_6 {
 		}
 		System.out.println("==========================================");
 	*/
-	//6.
+	/*6.
 		System.out.printf("EXERCÍCIO 6%n");
-		
+		System.out.println("Insira um valor:");
+		int A = sc.nextInt();
+		if(A > 0 && A < 25){
+			System.out.printf("O número %d está entre [0-25]!%n", A);
+		}else if(A >= 25 && A < 50){
+			System.out.printf("O número %d está entre [25-50]!%n", A);
+		}else if(A >= 50 && A < 75){
+			System.out.printf("O número %d está entre [50-75]!%n", A);
+		}else if(A >= 75 && A <= 100){
+			System.out.printf("O número % está entre [75-100]!%n", A);
+		}else{
+			System.out.println("Fora do intervalo!");
+		}
 		System.out.println("==========================================");
-	//7.
+	*/
+	/*7.
 		System.out.printf("EXERCÍCIO 7%n");
-		
+		System.out.println("Determine um valor para X: ");
+		double X = sc.nextDouble();
+		System.out.println("Determine um valor para Y: ");
+		double Y = sc.nextDouble();
+		if(X == 0 && Y == 0){
+			System.out.println("Ponto de origem [0] [0]");
+		}else if(X == Y){
+			System.out.println("Os eixos tem valor igual!");
+		}else if(X > Y){
+			System.out.println("O eixo X é maior!");
+		}else{
+			System.out.println("O eixo Y é maior!");
+		}
 		System.out.println("==========================================");
+	*/
 	//8.	
 		System.out.printf("EXERCÍCIO 8%n");
 		
