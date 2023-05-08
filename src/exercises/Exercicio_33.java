@@ -23,6 +23,7 @@ Lembre-se de aplicar a técnica de encapsulamento para não permitir que o salá
 em uma operação de aumento por porcentagem dada.
 
 			CONSOLE EXEMPLO
+https://youtu.be/Xj-osdBe3TE --> gabarito em vídeo.
 Quantos funcionários vão ser registrados? "3"
 
 Funcionário #1:
