@@ -112,7 +112,7 @@ public class Exercicios_6 {
 		}
 		System.out.println("==========================================");
 	*/
-	/*7.
+	//7.
 		System.out.printf("EXERCÍCIO 7%n");
 		System.out.println("Determine um valor para X: ");
 		double X = sc.nextDouble();
@@ -128,7 +128,7 @@ public class Exercicios_6 {
 			System.out.println("O eixo Y é maior!");
 		}
 		System.out.println("==========================================");
-	*/
+	
 	//8.	
 		System.out.printf("EXERCÍCIO 8%n");
 		
