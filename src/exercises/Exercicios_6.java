@@ -112,28 +112,46 @@ public class Exercicios_6 {
 		}
 		System.out.println("==========================================");
 	*/
-	//7.
+	/*7.
 		System.out.printf("EXERCÍCIO 7%n");
 		System.out.println("Determine um valor para X: ");
 		double X = sc.nextDouble();
 		System.out.println("Determine um valor para Y: ");
 		double Y = sc.nextDouble();
+		System.out.printf("As coordenadas [%.1f] [%.1f] pertencem ao quadrante: ", X,Y);
 		if(X == 0 && Y == 0){
-			System.out.println("Ponto de origem [0] [0]");
+			System.out.println("De origem [0] [0]");
 		}else if(X == Y){
-			System.out.println("Os eixos tem valor igual!");
+			System.out.println("Os eixos 'X' e 'Y' tem valor igual!");
 		}else if(X > Y){
-			System.out.println("O eixo X é maior!");
+			System.out.println("X!");
+			System.out.println("Onde a coordenada 'X' é a maior.");
 		}else{
-			System.out.println("O eixo Y é maior!");
+			System.out.println("Y!");
+			System.out.println("Onde a coordenada 'Y' é a maior.");
 		}
 		System.out.println("==========================================");
-	
+	*/
 	//8.	
 		System.out.printf("EXERCÍCIO 8%n");
-		
+	        double salario = sc.nextDouble();
+	        double imposto = 0.0;
+	
+	        if(salario > 4500.00){
+	            imposto = (salario - 4500.00) * 0.28 + 1500.00 * 0.18 + 1000.00 * 0.08;
+	        } else if(salario > 3000.00){
+	            imposto = (salario - 3000.00) * 0.18 + 1000.00 * 0.08;
+	        } else if(salario > 2000.00){
+	            imposto = (salario - 2000.00) * 0.08;
+	        }
+	
+	        if(imposto == 0){
+	            System.out.println("Isento de Imposto de Renda");
+	        }else{
+	            System.out.printf("O valor a pagar de Imposto de Renda é: R$ %.2f%n", imposto);
+	        }
 		System.out.println("==========================================");
-		
+	
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
