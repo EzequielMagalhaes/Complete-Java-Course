@@ -63,7 +63,36 @@ public class Exercicios_11 {
 	*/
 	//3
 		System.out.printf("EXERCÍCIO 3%n");
+		int codigo = 0;
+		int alcool = 0;
+		int gasolina = 0;
+		int diesel = 0;
 		
+		while(codigo != 4){
+			System.out.println("====================================");
+			System.out.println("Qual o combusítvel deseja abastecer?");
+			System.out.println("1 - Álcool");
+			System.out.println("2 - Gasolina");
+			System.out.println("3 - Diesel");
+			System.out.println("4 - Para sair");
+			System.out.println("====================================");
+			codigo = sc.nextInt();
+			if (codigo == 1) {
+                alcool++;
+            } else if (codigo == 2) {
+                gasolina++;
+            } else if (codigo == 3) {
+                diesel++;
+            }else if (codigo != 4){
+    			System.out.println("Código inválido! Tente novamente.");
+            }
+            	System.out.println("MUITO OBRIGADO!");
+				System.out.println("TABELA DE CLIENTES");
+				System.out.println("====================================");
+				System.out.printf("Álcool: %d%n",alcool);
+				System.out.printf("Gasolina: %d%n",gasolina);
+				System.out.printf("Diesel: %d%n",diesel);
+            }
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
