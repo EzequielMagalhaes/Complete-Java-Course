@@ -32,20 +32,35 @@ public class Exercicios_11 {
 		System.out.println("Bem-vindo ao sistema!");
 		System.out.println("==========================================");
 	*/
-	//2
+	/*2
 		System.out.printf("EXERCÍCIO 2%n");
 		
-		double X = 0;
-		double Y = 0;
+		System.out.println("Insira o valor da coordenada 'X': ");
+		double X = sc.nextDouble();
+		System.out.println("Insira o valor da coordenada 'Y': ");
+		double Y = sc.nextDouble();
 		
-		while(X == 0 || Y == 0) {
-			System.out.println("Insira o valor da coordenada 'X': ");
+		while(X != 0 && Y != 0) {
+				//DETERMINAR O QUADRANTE
+				if(X == 0 && Y == 0){
+					System.out.println("Origem.");
+				}else if(X > 0 && Y > 0){
+					System.out.println("Quadrante Q1.");
+				}else if(X < 0 && Y > 0){
+					System.out.println("Quadrante Q2.");
+				}else if(X < 0 && Y < 0){
+					System.out.println("Quadrante Q3.");
+				}else{
+					System.out.println("Quadrante Q4.");
+				}
+			System.out.println("O valor das coordenadas 'X' e 'Y' é diferente de zero.");
+			System.out.println("Insira novamente o valor da coordenada 'X': ");
 			X = sc.nextDouble();
-			System.out.println("Insira o valor da coordenada 'Y': ");
+			System.out.println("Insira novamente o valor da coordenada 'Y': ");
 			Y = sc.nextDouble();
-			System.out.println();
 		}
 		System.out.println("==========================================");
+	*/
 	//3
 		System.out.printf("EXERCÍCIO 3%n");
 		
