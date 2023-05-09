@@ -7,7 +7,7 @@ public class Exercicios_11 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-	//BONUS
+	/*BONUS
 		int x = 0;
 		int y = 4;
 		
@@ -17,11 +17,37 @@ public class Exercicios_11 {
 			System.out.printf("A variável 'x': %d%nA variável 'y': %d%n%n", x, y);
 		}
 		System.out.printf("A variável final de 'x': %d%nA variável final de 'y':%d%n%n", x, y);
-	//1
-		
+		System.out.println("==========================================");
+	*/
+	/*1
+		System.out.printf("EXERCÍCIO 1%n");
+		System.out.println("Insira a senha: ");
+		int senha = sc.nextInt();
+		while(senha != 2002){
+			System.out.println("Senha Inválida");
+			System.out.println("Insira a senha: ");
+			senha = sc.nextInt();
+		}
+		System.out.println("Senha correta! Login concluído.");
+		System.out.println("Bem-vindo ao sistema!");
+		System.out.println("==========================================");
+	*/
 	//2
+		System.out.printf("EXERCÍCIO 2%n");
 		
+		double X = 0;
+		double Y = 0;
+		
+		while(X == 0 || Y == 0) {
+			System.out.println("Insira o valor da coordenada 'X': ");
+			X = sc.nextDouble();
+			System.out.println("Insira o valor da coordenada 'Y': ");
+			Y = sc.nextDouble();
+			System.out.println();
+		}
+		System.out.println("==========================================");
 	//3
+		System.out.printf("EXERCÍCIO 3%n");
 		
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");

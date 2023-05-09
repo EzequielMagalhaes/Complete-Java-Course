@@ -119,16 +119,21 @@ public class Exercicios_6 {
 		System.out.println("Determine um valor para Y: ");
 		double Y = sc.nextDouble();
 		System.out.printf("As coordenadas [%.1f] [%.1f] pertencem ao quadrante: ", X,Y);
+		
 		if(X == 0 && Y == 0){
-			System.out.println("De origem [0] [0]");
-		}else if(X == Y){
-			System.out.println("Os eixos 'X' e 'Y' tem valor igual!");
-		}else if(X > Y){
-			System.out.println("X!");
-			System.out.println("Onde a coordenada 'X' é a maior.");
+			System.out.println("Origem.");
+		}else if(X > 0 && Y > 0){
+			System.out.println("Q1.");
+			System.out.println("Onde o 'X' é positivo e o 'Y'também é positivo");
+		}else if(X < 0 && Y > 0){
+			System.out.println("Q2.");
+			System.out.println("Onde o 'X' é negativo e o 'Y' é positivo");
+		}else if(X < 0 && Y < 0){
+			System.out.println("Q3.");
+			System.out.println("Onde o 'X' é negativo e o 'Y' também é negativo");
 		}else{
-			System.out.println("Y!");
-			System.out.println("Onde a coordenada 'Y' é a maior.");
+			System.out.println("Q4.");
+			System.out.println("Onde o 'X' é positivo e o 'Y' é negativo");
 		}
 		System.out.println("==========================================");
 	
