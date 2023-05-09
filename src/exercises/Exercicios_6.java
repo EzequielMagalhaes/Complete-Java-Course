@@ -6,7 +6,7 @@ public class Exercicios_6 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-	/*1.
+	//1.
 		System.out.printf("EXERCÍCIO 1%n");
 		System.out.println("Digite o número inteiro:");
 		int num1 = sc.nextInt();
@@ -18,8 +18,8 @@ public class Exercicios_6 {
 			System.out.println("O número é negativo!");
 		}
 		System.out.println("==========================================");
-	*/
-	/*2.
+	
+	//2.
 		System.out.printf("EXERCÍCIO 2%n");
 		System.out.println("Digite o número inteiro:");
 		int num2 = sc.nextInt();
@@ -29,8 +29,8 @@ public class Exercicios_6 {
 			System.out.println("O número é ímpar!");
 		}
 		System.out.println("==========================================");
-	*/
-	/*3.
+	
+	//3.
 		System.out.printf("EXERCÍCIO 3%n");
 		System.out.println("Digite o primeiro número inteiro:");
 		int A = sc.nextInt();
@@ -44,8 +44,8 @@ public class Exercicios_6 {
 			System.out.println("Não são múltiplos!");
 		}
 		System.out.println("==========================================");
-	*/
-	/*4.
+	
+	//4.
 		System.out.printf("EXERCÍCIO 4%n");
 		System.out.println("Digite a hora inicial:");
 		int hrInicial = sc.nextInt();
@@ -59,8 +59,8 @@ public class Exercicios_6 {
 		}
 		System.out.printf("O jogo durou %d hora(s)%n", duracao);
 		System.out.println("==========================================");
-	*/
-	/*5.
+	
+	//5.
 		System.out.printf("EXERCÍCIO 5%n");
 		System.out.println("TABELA DE LANCHES");
 		System.out.println("CÓDIGO - ESPECIFICAÇÃO - PREÇO");
@@ -70,7 +70,7 @@ public class Exercicios_6 {
 		System.out.println("4      Torrada Simples   R$: 2.00");
 		System.out.println("5      Refrigerante   	 R$: 1.50");
 		System.out.println("Insira o código do lanche que você deseja:");
-		int A = sc.nextInt();
+		int codigo = sc.nextInt();
 		if(A > 5){
 			System.out.println("Favor inserir um código de lanche válido!");
 			System.out.printf("EXERCÍCIO 5%n");
@@ -84,35 +84,35 @@ public class Exercicios_6 {
 			System.out.println("Insira o código do lanche que você deseja:");
 			A = sc.nextInt();
 			System.out.println("Insira a quantidade desse pedido:");
-			int B = sc.nextInt();
-			int valorTotal = A * B;
+			int quantidade = sc.nextInt();
+			int valorTotal = codigo * quantidade;
 			System.out.printf("O valor total do lanche vai ser: R$: %d reais%n",valorTotal);
 		}else{
 			System.out.println("Insira a quantidade desse pedido:");
-			int B = sc.nextInt();
-			int valorTotal = A * B;
+			int quantidade = sc.nextInt();
+			int valorTotal = codigo * quantidade;
 			System.out.printf("O valor total do lanche vai ser: R$: %d reais%n",valorTotal);
 		}
 		System.out.println("==========================================");
-	*/
-	/*6.
+	
+	//6.
 		System.out.printf("EXERCÍCIO 6%n");
 		System.out.println("Insira um valor:");
-		int A = sc.nextInt();
-		if(A > 0 && A < 25){
+		int num3 = sc.nextInt();
+		if(num3 > 0 && num3 < 25){
 			System.out.printf("O número %d está entre [0-25]!%n", A);
-		}else if(A >= 25 && A < 50){
+		}else if(num3 >= 25 && num3 < 50){
 			System.out.printf("O número %d está entre [25-50]!%n", A);
-		}else if(A >= 50 && A < 75){
+		}else if(num3 >= 50 && num3 < 75){
 			System.out.printf("O número %d está entre [50-75]!%n", A);
-		}else if(A >= 75 && A <= 100){
+		}else if(num3 >= 75 && num3 <= 100){
 			System.out.printf("O número % está entre [75-100]!%n", A);
 		}else{
 			System.out.println("Fora do intervalo!");
 		}
 		System.out.println("==========================================");
-	*/
-	/*7.
+	
+	//7.
 		System.out.printf("EXERCÍCIO 7%n");
 		System.out.println("Determine um valor para X: ");
 		double X = sc.nextDouble();
@@ -131,7 +131,7 @@ public class Exercicios_6 {
 			System.out.println("Onde a coordenada 'Y' é a maior.");
 		}
 		System.out.println("==========================================");
-	*/
+	
 	//8.	
 		System.out.printf("EXERCÍCIO 8%n");
 	        double salario = sc.nextDouble();
