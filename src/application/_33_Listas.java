@@ -81,7 +81,7 @@ public class _33_Listas {
 *		- Acesso sequencial aos elementos. *(se eu quiser usar o elemento 400 de uma lsita com 1000 itens, é necessário percorrer todos os 399 itens da lista para acessar o 400).
 *			* Da pra ser otimizada.
 *
-*			DEMONSTRAÇÃO
+*				DEMONSTRAÇÃO
 *	° Tamanho da lista: size()
 *	° Inserir elemento na lista: add(obj), add(int,obj)
 *	° Remover elementos da lista: remove(obj), remove(int), removeIf(Predicate)
