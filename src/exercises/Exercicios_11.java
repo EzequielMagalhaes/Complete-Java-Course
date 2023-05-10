@@ -7,7 +7,7 @@ public class Exercicios_11 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-	/*BONUS
+	//BONUS
 		int x = 0;
 		int y = 4;
 		
@@ -18,8 +18,7 @@ public class Exercicios_11 {
 		}
 		System.out.printf("A variável final de 'x': %d%nA variável final de 'y':%d%n%n", x, y);
 		System.out.println("==========================================");
-	*/
-	/*1
+	//1
 		System.out.printf("EXERCÍCIO 1%n");
 		System.out.println("Insira a senha: ");
 		int senha = sc.nextInt();
@@ -31,8 +30,7 @@ public class Exercicios_11 {
 		System.out.println("Senha correta! Login concluído.");
 		System.out.println("Bem-vindo ao sistema!");
 		System.out.println("==========================================");
-	*/
-	/*2
+	//2
 		System.out.printf("EXERCÍCIO 2%n");
 		
 		System.out.println("Insira o valor da coordenada 'X': ");
@@ -60,7 +58,6 @@ public class Exercicios_11 {
 			Y = sc.nextDouble();
 		}
 		System.out.println("==========================================");
-	*/
 	//3
 		System.out.printf("EXERCÍCIO 3%n");
 		int codigo = 0;

@@ -13,7 +13,7 @@ public class _34_Matrizes {
 		sc.close();
 	}
 }
-/*				MATRIZ
+/*					MATRIZ
 *	° Em programação, "Matriz" é o nome dado a arrays bidimensionais.
 *		."Vetores de vetores" 
 * 	° Array (arranjo) é uma estrutura de dados:

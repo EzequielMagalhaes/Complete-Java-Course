@@ -7,15 +7,14 @@ public class Exercicios_12 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-	/*BONUS	
+	//BONUS	
 		int y = 0;
 		for (int i = 0; i < 5; i++) {
 			System.out.print(i + ",");
 			y = y + 5;
 			System.out.println(y);
 		}
-	*/
-	//1
+	/*1
 		 System.out.print("Digite um número inteiro entre 1 e 1000: ");
 	        int x = sc.nextInt();
 	        for (int i = 1; i <= x; i++) {
@@ -23,6 +22,7 @@ public class Exercicios_12 {
 	                System.out.println(i);
 	            }
 	        }
+    */
 	//2
 		
 	//3
