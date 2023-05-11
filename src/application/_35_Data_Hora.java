@@ -13,7 +13,19 @@ public class _35_Data_Hora {
 		sc.close();
 	}
 }
-/*	°Data - [hora] local:
+/*			INSTANCIANDO DATA-HORA (JAVA 8+)
+*	°Data-Hora local
+*		- LocalDate
+*		- LocalDateTime
+*	°Data-Hora global
+*		- Instant
+*	°Duração
+*		- Duration
+*	°Outros
+*		- Zoneld
+* 		- ChronoUnit
+* 
+*	°Data - [hora] local:
 *		- Padrão ISO 8601:
 *			. 2022-07-21T14:52:09.0473
 *			. Ano - Mes - Dia [T]ime Hora : Minutos : Segundos.Fração de Segundos.
@@ -52,5 +64,23 @@ public class _35_Data_Hora {
 *			. "America/Sao_Paulo"
 *			. etc.
 *
+*	° Instanciação:
+*		- (agora) -> Data-Hora.
+*		- Texto ISO 8601 -> Data-Hora.
+*		- Texto formatado customizado -> Data-Hora
+*		- Dia,Mês, Ano [Horário] -> Data-Hora local.
 *
+*	° Formatação
+*		- Data-Hora -> Texto ISO 8601.
+*		- Data-Hora -> Texto formatado customizado.
+*
+*	° Obter dados de uma Data-Hora local
+*		- Data-Hora local -> Dia, Mês, Ano, Horário.
+*
+*	° Converter Data-Hora global para local
+*		- Data-Hora global, timezone(sistema local) -> Data-Hora local.
+*
+*	° Cálculos com Data-Hora
+*		- Data-Hora +/- tempo -> Data-Hora.
+*		- Data-Hora 1, Data-Hora 2 -> Duração.
 */
