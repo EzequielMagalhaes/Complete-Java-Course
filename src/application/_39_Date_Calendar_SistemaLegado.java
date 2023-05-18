@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _39_ {
+public class _39_Date_Calendar_SistemaLegado {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -13,3 +13,8 @@ public class _39_ {
 		sc.close();
 	}
 }
+/*					DATE E CALENDAR
+	° Modelo antigo de fazer operações Data e Hora.
+	° Para sistemas legado.
+	° Versões do Java anteriores à versão 8.
+*/
