@@ -8,11 +8,15 @@ public class _42_Composicao {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira o nome do departamento: ");
-		System.out.println("Insira os dados do trabalhador: ");
+		System.out.print("Insira o nome do departamento: ");
+		String nomeDepartamento = sc.nextLine();
+		System.out.print("Insira os dados do trabalhador: ");
 		System.out.println("Nome: ");
+		String nomeFuncionario = sc.nextLine();
 		System.out.println("Nível: ");
+		String nivelFuncionario = sc.nextLine();
 		System.out.println("Salário base: ");
+		double salarioBase = sc.nextDouble();
 		System.out.println("Quantos contratos para esse trabalhador? ");
 		System.out.println("Insira os dados do #1 2 3 contrato: ");
 		System.out.println("Data (DD/MM/YYYY): ");
