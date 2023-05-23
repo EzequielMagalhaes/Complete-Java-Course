@@ -14,6 +14,12 @@ public class _41_Enumeracoes {
 		Pedido pedido = new Pedido(1080, new Date(), StatusPedido.AGUARDANDO_PAGAMENTO);
 		System.out.println(pedido);
 		
+		StatusPedido os1 = StatusPedido.ENTREGUE; //instanciando um objeto com status pronto.
+		StatusPedido os2 = StatusPedido.valueOf("ENTREGUE"); //instanciado outro objeto, porém em forma de string.
+		//tem que ser igual está escrito no pacote 'enum'.
+		System.out.println(os1);
+		System.out.println(os2);
+		
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
