@@ -8,7 +8,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _38_CálculoComDataHora {
+public class _38_CalculoComDataHora {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

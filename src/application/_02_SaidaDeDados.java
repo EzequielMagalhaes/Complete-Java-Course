@@ -2,7 +2,7 @@ package application;
 
 import java.util.Locale;
 
-public class _02_SaídaDeDados {
+public class _02_SaidaDeDados {
 	public static void main(String[] args) {
 		double x = 10.35784;
 		String nome = "Maria";
