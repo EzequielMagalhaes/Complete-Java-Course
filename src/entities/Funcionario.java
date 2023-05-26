@@ -73,10 +73,12 @@ public class Funcionario {
 	public double renda(int ano, int mes) {
 		double soma = salarioBase;
 		Calendar cal = Calendar.getInstance();
-		for(ContratoHora c : contratos) {//for each: para cada contrato c na lista de contratos, vai testar se o contrato é do ano e mes passado como parâmetro. Caso seja, acrescenta o valor do contrato na soma.
-			cal.setTime(c.getDate()); // pega data do contrato, define essa data como sendo a data do calendário.
+		for(ContratoHora c : contratos) {
+// for each: para cada contrato c na lista de contratos, vai testar se o contrato é do ano e mes passado como parâmetro. Caso seja, acrescenta o valor do contrato na soma.
+			cal.setTime(c.getDate());
+// pega data do contrato, define essa data como sendo a data do calendário.
 			int c_ano = cal.get(Calendar.YEAR);
-			int c_mes = cal.get(Calendar.MONTH);
+			int c_mes = 1 + cal.get(Calendar.MONTH);
 			if(ano == c_ano && mes == c_mes) {
 				soma += c.valorTotal();
 			}
