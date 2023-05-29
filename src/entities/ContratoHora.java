@@ -1,3 +1,4 @@
+//	USADO NA CLASSE _42_Composicao //
 package entities;
 
 import java.util.Date;

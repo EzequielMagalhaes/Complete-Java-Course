@@ -1,4 +1,4 @@
-//	NOVA CLASSE PARA DEMONSTRAR MEMBROS ESTÁTICOS PT.2 //
+//	USADO NA CLASSE _23_MembrosEstaticos_Pt2 //
 package utils;
 
 public class Calculator2 {

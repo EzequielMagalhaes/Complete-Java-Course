@@ -1,3 +1,4 @@
+//	USADO NA CLASSE _30_Vetores_Pt2 //
 package entities;
 
 public class Mercadoria {

@@ -1,3 +1,4 @@
+//	USADO NA CLASSE _20_ReaproveitamentoEDelegacao_Pt2 e _21_Object_toString //
 package entities;
 
 public class Produto {

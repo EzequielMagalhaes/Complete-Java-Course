@@ -1,3 +1,4 @@
+//	USADO NA CLASSE _18_CriandoClasseComAtributos e _19_ReaproveitamentoEDelegacao//
 package entities;
 
 public class Triangulo {

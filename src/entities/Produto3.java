@@ -1,3 +1,4 @@
+//	USADO NA CLASSE _26_Encapsulamento //
 //	NOVA CLASSE PARA DEMONSTRAR OS GETTERS E SETTERS //
 package entities;
 

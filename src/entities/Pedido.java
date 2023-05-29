@@ -1,3 +1,4 @@
+//	USADO NA CLASSE _41_Enumeracoes //
 package entities;
 
 import java.util.Date;
