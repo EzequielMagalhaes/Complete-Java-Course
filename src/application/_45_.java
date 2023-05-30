@@ -13,3 +13,6 @@ public class _45_ {
 		sc.close();
 	}
 }
+/*
+	
+*/
