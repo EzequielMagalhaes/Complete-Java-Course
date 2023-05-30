@@ -13,3 +13,12 @@ public class _44_Heranca {
 		sc.close();
 	}
 }
+/*					HERANÇA
+	° É um tipo de associação que permite que uma classe herde *TODOS* dados e comportamentos de outra.
+	° Definições importantes.
+	° Vantagens: 
+		- Reuso.
+		-Polimorfismo.
+	° Sintaxe:
+		- "class A extends B"
+*/
