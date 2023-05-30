@@ -21,4 +21,10 @@ public class _44_Heranca {
 		-Polimorfismo.
 	° Sintaxe:
 		- "class A extends B"
+=================================================
+	° Relação "é-um" -> a subclasse "é uma" classe, porém com algo mais.
+	° Generalização/Especialização. -> A superclasse é a genérica(generalização) e a subclasse é a que tem atributos unicos e específicos(especificação).
+	° Superclasse(classe base) / Subclasse(classe derivada).
+	° Herança / extensão.
+	° Herança é uma associação entre classes(e não entre objetos).
 */
