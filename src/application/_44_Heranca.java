@@ -58,13 +58,13 @@ public class _44_Heranca {
 		-Polimorfismo.
 	° Sintaxe:
 		- "class A extends B"
-===================================================================
+==========================================================================
 	° Relação "é-um" -> a subclasse "é uma" classe, porém com algo mais.
 	° Generalização/Especialização. -> A superclasse é a genérica(generalização) e a subclasse é a que tem atributos unicos e específicos(especificação).
 	° Superclasse(classe base) / Subclasse(classe derivada).
 	° Herança / extensão.
 	° Herança é uma associação entre classes(e não entre objetos).
-===================================================================
+==========================================================================
 	° Upcasting:
 		- Casting da subclasse para superclasse.
 		- Uso comum: polimorfismo.
@@ -72,4 +72,10 @@ public class _44_Heranca {
 		- Casting da superclasse para subclasse.
 		- Palavra 'instanceof'.
 		- Uso comum: métodos que recebem parâmetros genéricos(ex:Equals).
+==========================================================================
+	° Sobreposição:
+		- É a implementação de um método de uma superclasse na subclasse.
+		- É fortemente recomendável usar a anotação "@Override" em um método sobrescrito
+			. Facilita a leitura e compreenção do código.
+			. Aviso ao compilador(boa prática).
 */
