@@ -8,6 +8,7 @@ public class _50_ {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

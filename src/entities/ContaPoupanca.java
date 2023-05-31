@@ -1,4 +1,4 @@
-//	USADO NA CLASSE _44_Heranca //
+//	USADO NA CLASSE _44_Heranca e _45_ClassesMetodos_final //
 package entities;
 
 public /*final*/ class ContaPoupanca extends Conta{
