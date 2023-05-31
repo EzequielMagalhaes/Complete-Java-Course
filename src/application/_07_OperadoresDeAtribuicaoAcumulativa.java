@@ -17,7 +17,7 @@ public class _07_OperadoresDeAtribuicaoAcumulativa {
 			conta += (minutos - 100) * 2.0;
 		}
 		System.out.printf("Valor da conta R$: %.2f%n",conta);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

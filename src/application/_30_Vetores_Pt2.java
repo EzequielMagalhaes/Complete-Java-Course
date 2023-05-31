@@ -29,7 +29,7 @@ public class _30_Vetores_Pt2 {
 		double media = soma / vect.length;
 		
 		System.out.printf("A média de preço das mercadorias é R$:%.2f%n",media);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

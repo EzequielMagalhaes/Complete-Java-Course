@@ -19,7 +19,7 @@ public class _41_Enumeracoes {
 		//tem que ser igual está escrito no pacote 'enum'.
 		System.out.println(os1);
 		System.out.println(os2);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

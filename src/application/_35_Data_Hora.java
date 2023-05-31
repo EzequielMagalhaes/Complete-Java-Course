@@ -43,7 +43,7 @@ public class _35_Data_Hora {
 		System.out.println("d09 = " + d09);
 		System.out.println("d10 = " + d10);
 		System.out.println("d11 = " + d11);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

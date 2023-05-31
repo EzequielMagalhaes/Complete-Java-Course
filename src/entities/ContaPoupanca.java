@@ -24,4 +24,10 @@ public class ContaPoupanca extends Conta{
 	public void atualizarSaldo() {
 		saldo += saldo * taxaJuro;
 	}
+	
+// Isso é uma sobreposição do método de saque na classe 'Conta'.
+	@Override
+	public void saqueSaldo(double quantia) {
+		saldo -= quantia;
+	}
 }

@@ -43,7 +43,7 @@ public class _22_MembrosEstaticos {
 		System.out.printf("Circunferencia: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
 		System.out.printf("PI: %.2f%n", calc.PI);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

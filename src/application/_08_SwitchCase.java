@@ -44,7 +44,7 @@ public class _08_SwitchCase {
 		}else {			
 			System.out.println("Dia da semana: " + dia);
 		}
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

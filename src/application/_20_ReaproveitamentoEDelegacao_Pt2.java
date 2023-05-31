@@ -19,7 +19,7 @@ public class _20_ReaproveitamentoEDelegacao_Pt2 {
 		produto.quantidade = sc.nextInt();
 		
 		System.out.println(produto.nome + ", " + produto.preco + ", " + produto.quantidade);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

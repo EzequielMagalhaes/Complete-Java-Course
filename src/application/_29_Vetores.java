@@ -22,7 +22,7 @@ public class _29_Vetores{
 		}
 		double media = soma / n;
 		System.out.printf("Altura média: %.2f%n", media);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

@@ -24,7 +24,7 @@ public class _04_EntradaDeDados_Pt2 {
 		System.out.println(s1);
 		System.out.println(s2);
 		System.out.println(s3);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

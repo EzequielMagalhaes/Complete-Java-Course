@@ -37,7 +37,7 @@ public class _36_ConvertendoData_HoraParaTexto {
 		// Testando formatações prontas do JavaDoc
 		System.out.println("d02 = " + d02.format(formato4));
 		System.out.println("d03 = " + formato5.format(d03));
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

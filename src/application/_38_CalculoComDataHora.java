@@ -21,7 +21,7 @@ public class _38_CalculoComDataHora {
 		LocalDate semanaProximoLocalDate = d01.plusWeeks(3);
 		LocalDate mesProximoLocalDate = d01.plusMonths(2);
 		LocalDate anoPassadoLocalDate = d01.minusYears(5);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("Data atual = " + d01);
 		System.out.println();
 		System.out.println("semanaPassadoLocalDate = " + diaPassadoLocalDate);
@@ -33,7 +33,7 @@ public class _38_CalculoComDataHora {
 		LocalDateTime semanaProximoLocalDateTime = d02.plusWeeks(3);
 		LocalDateTime mesProximoLocalDateTime = d02.plusMonths(2);
 		LocalDateTime anoPassadoLocalDateTime = d02.minusYears(5);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("Data atual = " + d02);
 		System.out.println();
 		System.out.println("diaPassadoLocalDateTime = " + diaPassadoLocalDateTime);
@@ -42,11 +42,11 @@ public class _38_CalculoComDataHora {
 		System.out.println("anoPassadoLocalDateTime = " + anoPassadoLocalDateTime);
 		
 		Instant diaPassadoInstant = d03.minus(7, ChronoUnit.DAYS);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("Data atual = " + d03);
 		System.out.println();
 		System.out.println("diaPassadoInstant = " + diaPassadoInstant);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		//CALCULAR DURAÇÃO.
 		//'Duration' não aceita o 'LocalDate', precisa converter para 'LocalDateTime'.
 		Duration t1 = Duration.between(diaPassadoLocalDate.atStartOfDay(), d01.atStartOfDay());// atTime(HH, mm) horas / minutos -> não é uma boa prática.
@@ -57,7 +57,7 @@ public class _38_CalculoComDataHora {
 		System.out.println("O tempo de duração entre as duas datas é de: " + t2.toDays() + " dias.");
 		System.out.println("O tempo de duração entre as duas datas é de: " + t3.toDays() + " dias.");
 		System.out.println("O tempo de duração entre as duas datas é de: " + t4.toDays() + " dias.");
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

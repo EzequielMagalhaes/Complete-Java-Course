@@ -20,7 +20,7 @@ public class _10_Debug {
 		
 		System.out.printf("AREA = %.2f metros quadrados%n", area);
 		System.out.printf("PREÇO = %.2f reais%n", preco);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

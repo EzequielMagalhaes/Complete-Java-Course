@@ -36,7 +36,7 @@ public class _37_ConvertendoData_HoraGlobalParaLocal {
 		System.out.println("d02 HORAS = " + d02.getHour());
 		System.out.println("d02 MINUTOS = " + d02.getMinute());
 		System.out.println("d02 SEGUNDOS = " + d02.getSecond());
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

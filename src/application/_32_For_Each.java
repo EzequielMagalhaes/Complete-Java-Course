@@ -12,11 +12,12 @@ public class _32_For_Each {
 		for(int i = 0; i < vect.length; i++){
 			System.out.println(vect[i]);
 		}
-		System.out.println("-----------------");
+		System.out.println("===================================================================");
 //	COMO SE Lê: "Para cada objeto "obj" contido no vetor "vect", faça...
 		for(String obj : vect){ // o 'for' percorre todos os elementos do vetor "vect", chamando cada elemento de "obj"
 			System.out.println(obj);
 		}
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

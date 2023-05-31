@@ -16,7 +16,7 @@ public class _34_Matrizes {
 				System.out.printf("Insira o valor a ser armazenado na LINHA [%d] COLUNA [%d]:%n",i,j);
 				matriz[i][j] = sc.nextInt();
 			}
-			System.out.println("=========================================================");
+			System.out.println("===================================================================");
 		}
 		System.out.println("Diagonal principal:"); // a diagonal principal se da sempre com índicese iguais(i=0 e j=0,i=1 e j=1).
 		//DIAGONAL PRINCIPAL.
@@ -34,6 +34,7 @@ public class _34_Matrizes {
 			}
 		}
 		System.out.println("Números negativos = " + contador);
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

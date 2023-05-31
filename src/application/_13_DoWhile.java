@@ -22,9 +22,10 @@ public class _13_DoWhile {
 				resposta = sc.next().charAt(0);
 			}*/
 		}while(resposta != 'n');
-			System.out.println("Programa terminou!");
-			System.out.println("Até a próxima =)");
-			sc.close();
+		System.out.println("===================================================================");
+		System.out.println("Programa terminou!");
+		System.out.println("Até a próxima =)");
+		sc.close();
 	}
 }
 /*		DO WHILE

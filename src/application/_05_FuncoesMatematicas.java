@@ -54,7 +54,7 @@ public class _05_FuncoesMatematicas {
 			  System.out.println("O valor de x1 = " + x1);
 			  System.out.println("O valor de x2 = " + x2);
 			}
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

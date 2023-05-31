@@ -26,7 +26,7 @@ public class _40_Calendar {
 		System.out.println("Minutos: "+ minutos);
 		System.out.println("Mes: "+ mes);
 		System.out.println(sdf.format(d));
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

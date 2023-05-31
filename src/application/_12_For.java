@@ -19,7 +19,7 @@ public class _12_For{
 			soma += x;
 		}
 		System.out.println(soma);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

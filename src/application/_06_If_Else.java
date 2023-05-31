@@ -19,7 +19,7 @@ public class _06_If_Else {
 		}else{
 			System.out.println("Boa noite!");
 		}
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

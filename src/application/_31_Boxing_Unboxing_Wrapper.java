@@ -24,7 +24,7 @@ public class _31_Boxing_Unboxing_Wrapper {
 		System.out.println(a);
 		int b = object; // nao é mais necessário usar o casting '(int)'.
 		System.out.println(b);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

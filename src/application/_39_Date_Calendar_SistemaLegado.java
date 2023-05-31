@@ -33,7 +33,7 @@ public class _39_Date_Calendar_SistemaLegado {
 		System.out.println("x2: " + x2);
 		System.out.println("x3: " + x3);		
 		System.out.println("x4: " + x4);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("y1: " + sdf1.format(y1));
 		System.out.println("y2: " + sdf2.format(y2));
 		System.out.println("y3: " + sdf2.format(y3));
@@ -41,7 +41,7 @@ public class _39_Date_Calendar_SistemaLegado {
 		System.out.println("x2: " + sdf2.format(x2));
 		System.out.println("x3: " + sdf2.format(x3));		
 		System.out.println("x4: " + sdf2.format(x4));
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("y1: " + sdf3.format(y1));
 		System.out.println("y2: " + sdf3.format(y2));
 		System.out.println("y3: " + sdf3.format(y3));
@@ -49,7 +49,7 @@ public class _39_Date_Calendar_SistemaLegado {
 		System.out.println("x2: " + sdf3.format(x2));
 		System.out.println("x3: " + sdf3.format(x3));		
 		System.out.println("x4: " + sdf3.format(x4));
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

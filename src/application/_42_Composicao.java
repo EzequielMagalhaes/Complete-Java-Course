@@ -51,7 +51,7 @@ public class _42_Composicao {
 		System.out.println("Nome: " + funcionario.getNome());
 		System.out.println("Departamento: " + funcionario.getDepartamento().getNome());
 		System.out.println("Renda de " + mesEAno + ": " + String.format("%.2f", funcionario.renda(ano, mes)));		
-		System.out.println();
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

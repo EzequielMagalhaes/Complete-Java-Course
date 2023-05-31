@@ -35,7 +35,7 @@ public class _15_FuncoesString {
 		System.out.println("vect[0] = " + vect[0]);
 		System.out.println("vect[1] = " + vect[1]);
 		System.out.println("vect[2] = " + vect[2]);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

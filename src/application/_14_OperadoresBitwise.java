@@ -25,7 +25,7 @@ public class _14_OperadoresBitwise {
 		}else{
 			System.out.println("6th bit is false");
 		}
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

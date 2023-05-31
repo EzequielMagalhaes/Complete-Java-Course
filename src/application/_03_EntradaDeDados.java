@@ -44,7 +44,7 @@ public class _03_EntradaDeDados {
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(z);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

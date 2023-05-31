@@ -25,7 +25,7 @@ public class _16_Funcoes {
 		//		USANDO FUNÇÕES PERSONALIZADAS
 		int higher = max(a,b,c);
 		showResult(higher);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

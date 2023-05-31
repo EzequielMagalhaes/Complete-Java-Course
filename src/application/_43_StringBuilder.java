@@ -33,7 +33,7 @@ public class _43_StringBuilder {
 		p2.addComentario(c4);
 		System.out.println(p1);
 		System.out.println(p2);
-		System.out.println("==================================================");
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

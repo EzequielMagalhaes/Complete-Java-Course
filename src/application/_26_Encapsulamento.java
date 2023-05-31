@@ -36,8 +36,7 @@ public class _26_Encapsulamento {
 		produto.removerProdutos(quantidade);
 		System.out.println();
 		System.out.println("Dados atualizados: " + produto);
-		System.out.println();
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

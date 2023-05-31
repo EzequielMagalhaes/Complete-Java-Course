@@ -19,8 +19,9 @@ public class _11_While {
 			soma += x;
 			x = sc.nextInt();
 		}
-		System.out.println("Programa terminou!");
 		System.out.printf("A soma de todos os números é: %d%n",soma);
+		System.out.println("===================================================================");
+		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
 	}

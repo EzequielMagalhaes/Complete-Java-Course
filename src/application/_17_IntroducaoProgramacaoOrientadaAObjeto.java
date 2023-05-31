@@ -32,6 +32,7 @@ public class _17_IntroducaoProgramacaoOrientadaAObjeto {
 		}else{
 			System.out.println("A maior área é a do: 'Y'");
 		}
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

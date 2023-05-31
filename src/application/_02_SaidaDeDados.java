@@ -19,7 +19,7 @@ public class _02_SaidaDeDados {
 		System.out.printf("RESULTADO = %.2f metros%n", x); //%.2f% vai ser subtituído por x;
 		
 		System.out.printf("%s tem %d anos e ganha R$:%.2f reais%n",nome, idade,renda);
-		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 	}

@@ -41,6 +41,6 @@ public class Conta {
 	}
 	
 	public void saqueSaldo(double quantia) { // removeSaldo
-		saldo -= quantia;
+		saldo -= quantia + 5.0;
 	}
 }
