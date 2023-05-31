@@ -1,7 +1,7 @@
 //	USADO NA CLASSE _44_Heranca //
 package entities;
 
-public class ContaPoupanca extends Conta{
+public /*final*/ class ContaPoupanca extends Conta{
 	private Double taxaJuro;
 	
 	public ContaPoupanca() {
@@ -27,7 +27,7 @@ public class ContaPoupanca extends Conta{
 	
 // Isso é uma sobreposição do método de saque na classe 'Conta'.
 	@Override
-	public void saqueSaldo(double quantia) {
+	public /*final*/ void saqueSaldo(double quantia) {
 		saldo -= quantia;
 	}
 }
