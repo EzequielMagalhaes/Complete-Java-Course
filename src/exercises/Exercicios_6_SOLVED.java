@@ -17,7 +17,7 @@ public class Exercicios_6_SOLVED {
 		}else{
 			System.out.println("O número é negativo!");
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//2.
 		System.out.printf("EXERCÍCIO 2%n");
@@ -28,7 +28,7 @@ public class Exercicios_6_SOLVED {
 		}else{
 			System.out.println("O número é ímpar!");
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//3.
 		System.out.printf("EXERCÍCIO 3%n");
@@ -43,7 +43,7 @@ public class Exercicios_6_SOLVED {
 		}else{
 			System.out.println("Não são múltiplos!");
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//4.
 		System.out.printf("EXERCÍCIO 4%n");
@@ -58,7 +58,7 @@ public class Exercicios_6_SOLVED {
 			duracao = 24 - hrInicial + hrFinal;
 		}
 		System.out.printf("O jogo durou %d hora(s)%n", duracao);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//5.
 		System.out.printf("EXERCÍCIO 5%n");
@@ -93,7 +93,7 @@ public class Exercicios_6_SOLVED {
 			int valorTotal = codigo * quantidade;
 			System.out.printf("O valor total do lanche vai ser: R$: %d reais%n",valorTotal);
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//6.
 		System.out.printf("EXERCÍCIO 6%n");
@@ -110,7 +110,7 @@ public class Exercicios_6_SOLVED {
 		}else{
 			System.out.println("Fora do intervalo!");
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//7.
 		System.out.printf("EXERCÍCIO 7%n");
@@ -135,7 +135,7 @@ public class Exercicios_6_SOLVED {
 			System.out.println("Q4.");
 			System.out.println("Onde o 'X' é positivo e o 'Y' é negativo");
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	
 	//8.	
 		System.out.printf("EXERCÍCIO 8%n");
@@ -155,8 +155,8 @@ public class Exercicios_6_SOLVED {
 	        }else{
 	            System.out.printf("O valor a pagar de Imposto de Renda é: R$ %.2f%n", imposto);
 	        }
-		System.out.println("==========================================");
 	
+        System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

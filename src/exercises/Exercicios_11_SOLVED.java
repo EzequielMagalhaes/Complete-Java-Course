@@ -17,7 +17,7 @@ public class Exercicios_11_SOLVED {
 			System.out.printf("A variável 'x': %d%nA variável 'y': %d%n%n", x, y);
 		}
 		System.out.printf("A variável final de 'x': %d%nA variável final de 'y':%d%n%n", x, y);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	//1
 		System.out.printf("EXERCÍCIO 1%n");
 		System.out.println("Insira a senha: ");
@@ -29,7 +29,7 @@ public class Exercicios_11_SOLVED {
 		}
 		System.out.println("Senha correta! Login concluído.");
 		System.out.println("Bem-vindo ao sistema!");
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	//2
 		System.out.printf("EXERCÍCIO 2%n");
 		
@@ -57,7 +57,7 @@ public class Exercicios_11_SOLVED {
 			System.out.println("Insira novamente o valor da coordenada 'Y': ");
 			Y = sc.nextDouble();
 		}
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	//3
 		System.out.printf("EXERCÍCIO 3%n");
 		int codigo = 0;
@@ -66,13 +66,13 @@ public class Exercicios_11_SOLVED {
 		int diesel = 0;
 		
 		while(codigo != 4){
-			System.out.println("====================================");
+			System.out.println("===================================================================");
 			System.out.println("Qual o combusítvel deseja abastecer?");
 			System.out.println("1 - Álcool");
 			System.out.println("2 - Gasolina");
 			System.out.println("3 - Diesel");
 			System.out.println("4 - Para sair");
-			System.out.println("====================================");
+			System.out.println("===================================================================");
 			codigo = sc.nextInt();
 			if (codigo == 1) {
                 alcool++;
@@ -85,11 +85,12 @@ public class Exercicios_11_SOLVED {
             }
             	System.out.println("MUITO OBRIGADO!");
 				System.out.println("TABELA DE CLIENTES");
-				System.out.println("====================================");
+				System.out.println("===================================================================");
 				System.out.printf("Álcool: %d%n",alcool);
 				System.out.printf("Gasolina: %d%n",gasolina);
 				System.out.printf("Diesel: %d%n",diesel);
             }
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

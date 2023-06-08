@@ -27,6 +27,14 @@ public class Exercicios_12 {
 		
 	//3
 		
+	//4
+		
+	//5
+	
+	//6	
+	
+	//7
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();

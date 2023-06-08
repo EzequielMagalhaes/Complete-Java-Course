@@ -16,7 +16,7 @@ public class Exercicios_1_5_SOLVED {
 		b = sc.nextInt();
 		int soma = a + b;
 		System.out.println("O valor da soma = " + soma);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	// 2.
 		System.out.printf("EXERCÍCIO 2%n");
 		double pi = 3.14159;
@@ -25,7 +25,7 @@ public class Exercicios_1_5_SOLVED {
 		raio = sc.nextDouble();
 		double area = pi * Math.pow(raio, 2.0);
 		System.out.printf("O valor da área = %.2f%n" ,area);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	// 3.
 		System.out.printf("EXERCÍCIO 3%n");
 		int w;
@@ -42,7 +42,7 @@ public class Exercicios_1_5_SOLVED {
 		z = sc.nextInt();
 		int produto = (w * x) - (y * z);
 		System.out.println("A diferença entre os produtos = " + produto);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	// 4.
 		System.out.printf("EXERCÍCIO 4%n");
 		int funcionarioId;
@@ -57,7 +57,7 @@ public class Exercicios_1_5_SOLVED {
 		salario = (hrsTrabalhadas * vlrHora);
 		System.out.printf("Por hora, cada funcionário recebe: R$: %.2f%n", vlrHora);
 		System.out.printf("Portanto o salário do funcionário '%s' é de R$: %.2f%n", funcionarioId, salario);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	// 5. 
 		System.out.printf("EXERCÍCIO 5%n");
 		System.out.printf("Qual o código da primeira peça?%n");
@@ -82,7 +82,7 @@ public class Exercicios_1_5_SOLVED {
 		double soma2 = (numeroPc2 * valorUnitarioPc2);
 		System.out.printf("O total a pagar no primeiro pedido é: %.2f reais%n", soma1);
 		System.out.printf("O total a pagar no segundo pedido é: %.2f reais%n", soma2);
-		System.out.println("==========================================");
+		System.out.println("===================================================================");
 	// 6.
 		System.out.printf("EXERCÍCIO 6%n");
 		float A;
@@ -114,8 +114,8 @@ public class Exercicios_1_5_SOLVED {
 		// e) retângulo -> base * altura
 		float retangulo = (float)(A * B);
 		System.out.printf("e) Área do retangulo é aproximadamente: %n%.2f%n",retangulo);
-		System.out.println("==========================================");
 		
+		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
 		sc.close();
