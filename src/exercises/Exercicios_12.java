@@ -62,7 +62,7 @@ public class Exercicios_12 {
 			System.out.println(mediaPonderada);
 		}
 	*/
-	//4
+	/*4
 		 System.out.print("Digite o número de pares a serem lidos: ");
 	        int quantidadePares = sc.nextInt();
 	        
@@ -81,7 +81,7 @@ public class Exercicios_12 {
 	                System.out.println("Divisão impossível! Denominador é igual a zero.");
 	            }
 	        }
-		
+	*/
 	//5
 	
 	//6	
