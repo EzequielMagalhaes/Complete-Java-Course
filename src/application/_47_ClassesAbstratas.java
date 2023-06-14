@@ -24,12 +24,14 @@ public class _47_ClassesAbstratas {
 		lista.add(new ContaPoupanca2(1003, "Anna", 300.0, 0.01));
 		lista.add(new ContaEmpresarial2(1004, "Alex", 500.0, 500.0));
 		
+		//MOSTAR SALDO TOTAL DAS CONTAS//
 		double soma = 0.0;
 		for(Conta2 conta : lista) {
 			soma += conta.getSaldo();
 		}
 		System.out.printf("Saldo total: %.2f%n",soma);
 		
+		//SOMAR +10 EM CADA CONTA E MOSTRAR SALDO ATUALIZADO//
 		for(Conta2 conta : lista) {
 			conta.depositoSaldo(10);
 		}
