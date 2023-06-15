@@ -8,7 +8,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.util.TimeZone;
 
-public class _39_Date_Calendar_SistemaLegado {
+public class _39_SistemaLegadoDate_Calendar {
 	public static void main(String[] args) throws ParseException {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
