@@ -1,5 +1,6 @@
 package application;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -7,7 +8,20 @@ public class _49_Excecao_Try_Catch {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+			
+		try {
+			System.out.println("Digite nomes para serem inseridos no vetor:");
+			String [] vect = sc.nextLine().split(" "); //separa o vetor a cada espaço
+			System.out.println("Digite qual posição do vetor deseja acessar: ");
+			int posicao = sc.nextInt();
+			System.out.println(vect[posicao]);
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Posição inválida!");
+		}
+		catch(InputMismatchException e) {
+			System.out.println("Input inválido!");
+		}
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
