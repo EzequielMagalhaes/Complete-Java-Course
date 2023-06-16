@@ -20,5 +20,4 @@ inclusive sua duração em dias. Em seguida, ler novas datas de entrada e saída
 O programa não deve aceitar dados inválidos para a reserva, conforme as seguintes regras:
 	- Alterações de reserva só podem ocorrer para datas futuras.
 	- A data de saída deve ser maior que a data de entrada.
-
 */
