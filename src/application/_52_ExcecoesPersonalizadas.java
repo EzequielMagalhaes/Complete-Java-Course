@@ -7,6 +7,7 @@ public class _52_ExcecoesPersonalizadas {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		// 1° MÉTODO - MUITO RUIM.
 		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
@@ -17,7 +18,8 @@ public class _52_ExcecoesPersonalizadas {
 /*PROBLEMA EXEMPLO
 1. Fazer um programa para ler os dados de uma reserva de hotel(número do quarto, data de entrada e data de saída) e mostrar os dados da reserva,
 inclusive sua duração em dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva e mostrar novamente a reserva com os dados atualizados.
-O programa não deve aceitar dados inválidos para a reserva, conforme as seguintes regras:
+O programa nã
+o deve aceitar dados inválidos para a reserva, conforme as seguintes regras:
 	- Alterações de reserva só podem ocorrer para datas futuras.
 	- A data de saída deve ser maior que a data de entrada.
 */
