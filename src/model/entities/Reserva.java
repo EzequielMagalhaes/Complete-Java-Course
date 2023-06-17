@@ -39,13 +39,13 @@ public class Reserva {
 	//Método 'toString()' é uma sobreposição, então sempre colocar o override no toString.
 	@Override
 	public String toString() {
-		return "Quarto: "
+		return "Quarto "
 			+ numeroQuarto
 			+ ", check-in: "
 			+ sdf.format(checkIn)
 			+ ", check-out: "
 			+ sdf.format(checkOut)
-			+ duracao()
+			+ " " + duracao()
 			+ " noites.";
 	}
 	
