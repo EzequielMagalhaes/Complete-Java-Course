@@ -1,14 +1,46 @@
 package application;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
+import model.entities.Reserva2;
 
 public class _53_ExcecoesPersonalizadas_Pt2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		// 2° MÉTODO - RUIM.
 		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		System.out.println("Número do quarto: ");
+		int numero = sc.nextInt();
+		System.out.println("Data de check-in (dd/MM/yyyy): ");
+		Date checkIn = sdf.parse(sc.next());
+		System.out.println("Data de check-out (dd/MM/yyyy): ");
+		Date checkOut = sdf.parse(sc.next());
+		
+		if(!checkOut.after(checkIn)) {
+			System.out.println("Erro na reserva! A data de 'check-out' deve ser posterior à data de 'check-in'");
+		}else {
+			Reserva2 reserva = new Reserva2(numero, checkIn, checkOut);
+			System.out.println("Reserva: " + reserva);
+			System.out.println();
+			System.out.println("Atualize as datas da reserva: ");
+			System.out.println("Data de check-in (dd/MM/yyyy): ");
+			checkIn = sdf.parse(sc.next());
+			System.out.println("Data de check-out (dd/MM/yyyy): ");
+			checkOut = sdf.parse(sc.next());
+			
+			String erro = reserva.atualizarDatas(checkIn, checkOut);
+			if(erro != null) { //Significa que veio alguma string contendo um erro.
+				System.out.println("Erro na reserva! " + erro);
+			}
+			else {				
+				System.out.println("Reserva: " + reserva);
+			}
+		}
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");

@@ -1,18 +1,18 @@
-//	USADO NA CLASSE _52_ExcecoesPersonalizadas //
+//	USADO NA CLASSE _54_ExcecoesPersonalizadas_Pt3 //
 package model.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class Reserva {
+public class Reserva3 {
 	private Integer numeroQuarto;
 	private Date checkIn;
 	private Date checkOut;
 	
 	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	
-	public Reserva(Integer numeroQuarto, Date checkIn, Date checkOut) {
+	public Reserva3(Integer numeroQuarto, Date checkIn, Date checkOut) {
 		this.numeroQuarto = numeroQuarto;
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;
