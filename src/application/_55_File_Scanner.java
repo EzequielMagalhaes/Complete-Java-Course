@@ -25,7 +25,6 @@ public class _55_File_Scanner {
 				sc.close();
 			}
 		}
-		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
