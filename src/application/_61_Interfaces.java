@@ -1,13 +1,30 @@
 package application;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
+
+import model.entities.AluguelCarro;
+import model.entities.Veiculo;
 
 public class _61_Interfaces {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		// 1° MÉTODO - RUIM (SEM INTERFACE).
+		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+		
+		System.out.println("Insira os dados do aluguel:");
+		System.out.println("Modelo do carro: ");
+		String modeloCarro = sc.nextLine();
+		System.out.println("Retirada (dd/MM/yyyy hh:mm):");
+		LocalDateTime inicio = LocalDateTime.parse(sc.nextLine(), fmt);
+		System.out.println("Retorno (dd/MM/yyyy hh:mm):");
+		LocalDateTime fim = LocalDateTime.parse(sc.nextLine(), fmt);
+		
+		AluguelCarro AlgCar = new AluguelCarro(inicio, fim, new Veiculo(modeloCarro));
+		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
@@ -25,7 +42,7 @@ public class _61_Interfaces {
 	° Isso possui implicações conceituais e práticas, que serão discutidas mais à frente neste capitulo.
 	
 EXERCÍCIO EXEMPLO
-1. UMa locadora brasileira de carros cobra um valor por hora para locações de até 12 horas. Porém, se a duração da locação ultrapassar 12 horas,
+1. Uma locadora brasileira de carros cobra um valor por hora para locações de até 12 horas. Porém, se a duração da locação ultrapassar 12 horas,
 a locação será cobrada com base em um valor diário. Além do valor da locação, é acrescido no preço o valor do imposto conforme regras do país que,
 no caso do Brasil, é 20% para valor até 100.00, ou 15% para valores acima de 100.00. Fazer um programa que lê os dados da locação (modelo do carro,
 intante inicial e final da locação),bem como o valor por hora e o valor diário de locação. O programa deve então gerar a nota de pagamento (contendo

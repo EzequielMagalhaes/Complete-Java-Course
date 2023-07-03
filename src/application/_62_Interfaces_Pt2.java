@@ -7,7 +7,7 @@ public class _62_Interfaces_Pt2 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		// 1° MÉTODO - RUIM (COM INTERFACE).
+		// 2° MÉTODO - BOM (COM INTERFACE).
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
