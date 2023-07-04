@@ -3,10 +3,12 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _63_Inversao_Injecao {
+public class _62_Inversao_Injecao {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		
+		
 		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
@@ -14,6 +16,6 @@ public class _63_Inversao_Injecao {
 		sc.close();
 	}
 }
-/*			INVERSÃO DE CONTROLE E INJEÇÃO DE DEPENDÊNCIA
+/*
 
 */

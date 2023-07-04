@@ -48,15 +48,25 @@ public class _61_Interfaces {
 		sc.close();
 	}
 }
-/*				INTERFACES
+/*							INTERFACES
 	° Interface é um tipo que define um conjunto de operações que uma classe deve implementar.
 	° A interface estabelece um contrato que a classe deve cumprir.
 	° Pra que interfaces?
 		- Para criar sistemas com baixo acoplamento e flexíveis.
 
-*AVISO*
+ 							 *AVISO*
 	° A partir do Java 8, interfaces podem ter "defaut methods" ou "defender methods".
 	° Isso possui implicações conceituais e práticas, que serão discutidas mais à frente neste capitulo.
+	
+				INVERSÃO DE CONTROLE E INJEÇÃO DE DEPENDÊNCIA
+	° Inversão de controle:
+		- Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instaciar suas dependências.
+	° Injeção de dependência:
+		- É uma forma de realizar a inversão de controle: um componente externo instancia a dependência, que é então injetada no objeto "pai".
+		Pode ser implementada de várias formas:
+			. Construtor
+			. Classe de instanciação(builder / factory)
+			. Container / framework
 	
 EXERCÍCIO EXEMPLO
 1. Uma locadora brasileira de carros cobra um valor por hora para locações de até 12 horas. Porém, se a duração da locação ultrapassar 12 horas,
