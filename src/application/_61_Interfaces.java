@@ -38,9 +38,9 @@ public class _61_Interfaces {
 		
 		System.out.println("-------------------------------------------------------------------");
 		System.out.println("FATURA:");
-		System.out.println("Pagamento básico: " + ac.getFatura().getPagamentoBasico());
-		System.out.println("Imposto: " + ac.getFatura().getImposto());
-		System.out.println("Pagamento total: " + ac.getFatura().getPagamentoTotal());
+		System.out.println("Pagamento básico: " + String.format("%.2f", ac.getFatura().getPagamentoBasico()));
+		System.out.println("Imposto: " + String.format("%.2f",ac.getFatura().getImposto()));
+		System.out.println("Pagamento total: " + String.format("%.2f", ac.getFatura().getPagamentoTotal()));
 		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
