@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import model.entities.AluguelCarro;
 import model.entities.Veiculo;
+import model.services.ServicoAluguel;
+import model.services.ServicoImpostoBrasil;
 
 public class _61_Interfaces {
 	public static void main(String[] args) {
@@ -23,7 +25,22 @@ public class _61_Interfaces {
 		System.out.println("Retorno (dd/MM/yyyy hh:mm):");
 		LocalDateTime fim = LocalDateTime.parse(sc.nextLine(), fmt);
 		
-		AluguelCarro AlgCar = new AluguelCarro(inicio, fim, new Veiculo(modeloCarro));
+		AluguelCarro ac = new AluguelCarro(inicio, fim, new Veiculo(modeloCarro));
+		
+		System.out.println("Insira o preço por hora: ");
+		double precoPorHora = sc.nextDouble();
+		System.out.println("Insira o preço por dia: ");
+		double precoPorDia = sc.nextDouble();
+		
+		ServicoAluguel servicoAluguel = new ServicoAluguel(precoPorHora, precoPorDia, new ServicoImpostoBrasil());
+		
+		servicoAluguel.processoFatura(ac);
+		
+		System.out.println("-------------------------------------------------------------------");
+		System.out.println("FATURA:");
+		System.out.println("Pagamento básico: " + ac.getFatura().getPagamentoBasico());
+		System.out.println("Imposto: " + ac.getFatura().getImposto());
+		System.out.println("Pagamento total: " + ac.getFatura().getPagamentoTotal());
 		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
