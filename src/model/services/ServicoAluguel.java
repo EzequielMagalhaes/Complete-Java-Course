@@ -1,16 +1,15 @@
 //	USADO NA CLASSE _61_Interfaces //
 package model.services;
 import java.time.Duration;
-
 import model.entities.AluguelCarro;
 import model.entities.Fatura;
 
 public class ServicoAluguel {
 	private Double precoPorDia;
 	private Double precoPorHora;
-	private ServicoImpostoBrasil servicoImposto;
+	private ServicoImposto servicoImposto;
 	
-	public ServicoAluguel(Double precoPorDia, Double precoPorHora, ServicoImpostoBrasil servicoImposto) {
+	public ServicoAluguel(Double precoPorDia, Double precoPorHora, ServicoImposto servicoImposto) {
 		this.precoPorDia = precoPorDia;
 		this.precoPorHora = precoPorHora;
 		this.servicoImposto = servicoImposto;
@@ -24,7 +23,7 @@ public class ServicoAluguel {
 		if(horas <= 12.0) {
 			pagamentoBasico = precoPorHora * Math.ceil(horas); //Math.ceil -> arredonda os valores fracionados pra cima.
 		}else {
-			pagamentoBasico = precoPorDia * Math.ceil(horas / 24.0);
+			pagamentoBasico = precoPorDia * Math.ceil(horas / 24);
 		}
 		
 		double imposto = servicoImposto.imposto(pagamentoBasico);
