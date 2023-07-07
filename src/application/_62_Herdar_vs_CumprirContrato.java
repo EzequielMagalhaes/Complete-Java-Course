@@ -30,8 +30,6 @@ public class _62_Herdar_vs_CumprirContrato {
 		System.out.println("Area do círculo: " + String.format("%.3f", fa1.area()));
 		System.out.println("Cor do retângulo: " + fa2.getCor());
 		System.out.println("Area do retângulo: " + String.format("%.3f", fa2.area()));
-		
-		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
