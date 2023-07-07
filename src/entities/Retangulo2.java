@@ -1,18 +1,18 @@
-//	USADO NA CLASSE _48_MetodosAbstratos e _62_Herdar_vs_CumprirContrato//
+//USADO NA CLASSE _62_Herdar_vs_CumprirContrato//
 package entities;
 
 import entities.enums.Cor;
 
-public class Retangulo extends Forma{
-	
+public class Retangulo2 extends FormaAbstrata {
+
 	private Double largura;
 	private Double altura;
-	
-	public Retangulo() {
+
+	public Retangulo2() {
 		super();
 	}
 
-	public Retangulo(Cor cor, Double largura, Double altura) {
+	public Retangulo2(Cor cor, Double largura, Double altura) {
 		super(cor);
 		this.largura = largura;
 		this.altura = altura;

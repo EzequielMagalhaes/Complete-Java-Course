@@ -1,16 +1,17 @@
-//	USADO NA CLASSE _48_MetodosAbstratos e _62_Herdar_vs_CumprirContrato//
+//USADO NA CLASSE e _62_Herdar_vs_CumprirContrato//
 package entities;
+
 import entities.enums.Cor;
 
-public class Circulo extends Forma{
+public class Circulo2 extends FormaAbstrata {
 
 	private Double raio;
-	
-	public Circulo() {
+
+	public Circulo2() {
 		super();
 	}
-	
-	public Circulo(Cor cor, Double raio) {
+
+	public Circulo2(Cor cor, Double raio) {
 		super(cor);
 		this.raio = raio;
 	}
@@ -25,7 +26,7 @@ public class Circulo extends Forma{
 
 	@Override
 	public double area() {
-		return Math.PI * Math.pow(raio,2); // (valor,expoente)
+		return Math.PI * Math.pow(raio, 2); // (valor,expoente)
 	}
 
 }

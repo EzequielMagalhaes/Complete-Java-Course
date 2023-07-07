@@ -1,17 +1,17 @@
-//	USADO NA CLASSE _48_MetodosAbstratos e _62_Herdar_vs_CumprirContrato//
+//USADO NA CLASSE _62_Herdar_vs_CumprirContrato//
 package entities;
 import entities.enums.Cor;
 
-public abstract class Forma {
+public abstract class FormaAbstrata implements Forma2{
 	private Cor cor;
-	
-	public Forma() {
+
+	public FormaAbstrata() {
+		super();
 	}
 	
-	public Forma(Cor cor) {
+	public FormaAbstrata(Cor cor) {
 		this.cor = cor;
 	}
-
 	public Cor getCor() {
 		return cor;
 	}
@@ -19,6 +19,4 @@ public abstract class Forma {
 	public void setCor(Cor cor) {
 		this.cor = cor;
 	}
-	
-	public abstract double area();
 }
