@@ -9,23 +9,26 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.Funcionario2;
+
 public class _64_InterfaceComparable {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		List<String> lista = new ArrayList<>();
+		List<Funcionario2> lista = new ArrayList<>();
 		String path = "c:\\temp\\in.txt";
 		
 		try(BufferedReader br = new BufferedReader(new FileReader(path))){
-			String nome = br.readLine();
-			while(nome != null) {
-				lista.add(nome);
-				nome = br.readLine();
+			String funcionarioCSV = br.readLine();
+			while(funcionarioCSV != null) {
+				String[] campos = funcionarioCSV.split(","); //Divide o arquivo em array, onde o index 0 é o nome e o index 1 é o salário.
+				lista.add(new Funcionario2(campos[0], Double.parseDouble(campos[1])));
+				funcionarioCSV = br.readLine();
 			}
 			Collections.sort(lista);// Método para organizar a lista.
-			for (String s : lista) {
-				System.out.println(s);
+			for (Funcionario2 func : lista) {
+				System.out.println(func.getNome() + ", " + func.getSalario());
 			}
 		}
 		catch(IOException e) {
