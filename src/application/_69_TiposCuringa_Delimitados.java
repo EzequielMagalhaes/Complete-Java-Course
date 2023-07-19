@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _68_ {
+public class _69_TiposCuringa_Delimitados {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -14,6 +14,6 @@ public class _68_ {
 		sc.close();
 	}
 }
-/*
-
+/*PROBLEMA EXEMPLO
+	° Fazer um método retornar a soma das áreas de uma lista de figuras.
 */

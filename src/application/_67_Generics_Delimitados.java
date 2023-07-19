@@ -11,7 +11,7 @@ import java.util.Scanner;
 import entities.Produto4;
 import services.ServicoCalculo;
 
-public class _67_GenericsDelimitados {
+public class _67_Generics_Delimitados {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -25,8 +25,7 @@ public class _67_GenericsDelimitados {
 				String[] fields = linha.split(",");
 				lista.add(new Produto4(fields[0], Double.parseDouble(fields[1])));
 				linha = br.readLine();
-			}
-			
+			}		
 			Produto4 x = ServicoCalculo.max(lista);
 			System.out.println("Máximo: ");
 			System.out.println(x);
@@ -34,8 +33,7 @@ public class _67_GenericsDelimitados {
 		catch(IOException e) {
 			System.out.println("Erro: " + e.getMessage());
 		}
-		
-		
+	
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
