@@ -2,7 +2,6 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 import services.ServicoImpressao;
 
 public class _66_Generics {

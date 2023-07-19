@@ -34,7 +34,7 @@ public class _58_FileWriter_BufferedWriter {
 /*
 	° File Writer(stream de escrita de caracteres em de arquivos).
 		- JAVADOC-> https://docs.oracle.com/javase/8/docs/api/java/io/FileWriter.html
-		- Cria / recria o aruivo: new FileWriter(path).
+		- Cria / recria o arquivo: new FileWriter(path).
 		- Acrescenta ao arquivo existente: new FileWriter(path,true).
 	° Buffered Writer(mais rápido).
 		- JAVADOC-> https://docs.oracle.com/javase/8/docs/api/java/io/BufferedWriter.html
