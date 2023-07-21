@@ -2,19 +2,28 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
+import entities.Cliente;
 
 public class _71_hashCode_Equals {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		String a = "Zekiel";
-		String b = "Nathy";
-		System.out.println(a.equals(b));
+//		String a = "Zekiel";
+//		String b = "Nathy";
+//		System.out.println(a.equals(b));
+//		
+//		System.out.println(a.hashCode());
+//		System.out.println(b.hashCode());
 		
-		System.out.println(a.hashCode());
-		System.out.println(b.hashCode());
+		Cliente c1 = new Cliente("Zekiel","zekiel.dev@gmail.com");
+		Cliente c2 = new Cliente("Nathy","natthytdz@gmail.com");
+		Cliente c3 = new Cliente("Nathy","natthytdz@gmail.com");
 		
+		System.out.println(c1.hashCode());
+		System.out.println(c2.hashCode());
+		System.out.println(c1.equals(c2));
+		System.out.println(c2.equals(c3));
 		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
