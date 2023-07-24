@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Set;
 import entities.Produto5;
 
-public class _73_Set_Testando_Igualdade {
+public class _73_Set_TestandoIgualdade {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

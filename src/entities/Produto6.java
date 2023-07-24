@@ -1,16 +1,16 @@
-//	USADO NA CLASSE _73_Set_Testando_Igualdade //
+//	USADO NA CLASSE _74_TreeSet_ComparandoElementos //
 package entities;
 
 import java.util.Objects;
 
-public class Produto5 {
+public class Produto6 implements Comparable<Produto6>{
 	private String nome;
 	private Double preco;
 	
-	public Produto5() {
+	public Produto6() {
 	}
 
-	public Produto5(String nome, Double preco) {
+	public Produto6(String nome, Double preco) {
 		super();
 		this.nome = nome;
 		this.preco = preco;
@@ -45,7 +45,18 @@ public class Produto5 {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Produto5 other = (Produto5) obj;
+		Produto6 other = (Produto6) obj;
 		return Objects.equals(nome, other.nome) && Objects.equals(preco, other.preco);
-	}	
+	}
+
+	@Override
+	public String toString() {
+		return "Produto6 [Nome=" + nome + ", Preco=" + preco + "]";
+	}
+
+	@Override
+	public int compareTo(Produto6 other) {
+		return nome.toUpperCase().compareTo(other.getNome().toUpperCase()); //ordenação por ordem alfabética.
+	}
+	
 }
