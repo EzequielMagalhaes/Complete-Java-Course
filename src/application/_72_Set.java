@@ -1,26 +1,57 @@
 package application;
 
-import java.util.HashSet;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
+import java.util.Arrays;
+//import java.util.HashSet;
+//import java.util.TreeSet;
+//import java.util.LinkedHashSet;
 
 public class _72_Set {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		//EXEMPLO 1
 		
-		Set<String> set = new HashSet<>();
+//		Set<String> set = new HashSet<>();
+//		Set<String> set = new TreeSet<>();
+//		Set<String> set = new LinkedHashSet<>();
+//		
+//		set.add("TV");
+//		set.add("Notebook");
+//		set.add("Tablet");
+//		
+//		set.remove("Tablet");
+//		set.removeIf(x -> x.charAt(0) == 'T');
+//		
+//		System.out.println(set.contains("Notebook"));
+//		
+//		for(String p : set) {
+//			System.out.println(p);
+//		}
+//		
+		//EXEMPLO 2 - CONJUNTOS
 		
-		set.add("TV");
-		set.add("Notebook");
-		set.add("Tablet");
+		Set<Integer> a = new TreeSet<>(Arrays.asList(0, 2, 4, 5, 6, 8, 10));
+		Set<Integer> b = new TreeSet<>(Arrays.asList(5, 6, 7, 8, 9, 10));
 		
-		System.out.println(set.contains("Notebook"));
+		//uniao
+		Set<Integer> c = new TreeSet<>(a);
+		c.addAll(b);
+		System.out.println(c);
+
+		//interceção
+		Set<Integer> d = new TreeSet<>(a);
+		d.retainAll(b);
+		System.out.println(d);
 		
-		for(String p : set) {
-			System.out.println(p);
-		}
+		//diferença
+		Set<Integer> e = new TreeSet<>(a);
+		e.removeAll(b);
+		System.out.println(e);
+		
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
