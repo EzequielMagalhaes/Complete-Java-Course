@@ -69,7 +69,7 @@ public class _72_Set {
 			. TreeSet -> mais lento(operações O(log(n)) em árvore rubro-negra) e ordenado pelo 'compareTo' do objeto (ou 'Comparator').
 			. LinkedHashSet -> velocidade intermediária e elementos na ordem em que são adicionados.
 			
-	° Aalguns métodos importantes
+	° Alguns métodos importantes
 		- add(obj), remove(obj), contains(obj).
 			. Baseado em equals e hashCode.
 			. Se equals e hashCode não existir, é usada comparação de ponteiros.
