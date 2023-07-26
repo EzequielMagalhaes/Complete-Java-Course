@@ -1,3 +1,4 @@
+//USADO NA CLASSE _77_Comparator //
 package entities;
 
 import java.util.Comparator;
