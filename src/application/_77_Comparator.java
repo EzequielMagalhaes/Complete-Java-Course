@@ -1,7 +1,6 @@
 package application;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -31,16 +30,19 @@ public class _77_Comparator {
 		lista.sort(comp);
 ==================================================================================*/
 /*		3° MÉTODO - Definindo uma função anônima, 'arrow function', de três maneiras.
- 
+ 		Expressão lambda com chaves
+ 		 
 		Comparator<Produto7> comp = (p1,p2) -> { 
 			return p1.getNome().toUpperCase().compareTo(p2.getNome().toUpperCase());
 		};
 		
 		// ou //
+		Expressão lambda sem chaves
 		
-		Comparator<Produto7> comp = (p1,p2) -> p1.getNome().toUpperCase().compareTo(p2.getNome().toUpperCase()); */
+		Comparator<Produto7> comp = (p1,p2) -> p1.getNome().toUpperCase().compareTo(p2.getNome().toUpperCase()); 
 		
 		// ou //
+		Expressão lambda "direto no argumento". */
 		
 		lista.sort((p1,p2) -> p1.getNome().toUpperCase().compareTo(p2.getNome().toUpperCase()));
 		

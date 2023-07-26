@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class _78 {
+public class _78_ProgramacaoFuncional_CalculoLambda {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -14,6 +14,6 @@ public class _78 {
 		sc.close();
 	}
 }
-/*
+/*			
 
 */
