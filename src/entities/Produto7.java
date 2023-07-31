@@ -1,4 +1,9 @@
-//USADO NA CLASSE _77_Comparator e _78_Predicate e _79_Consumer//
+/*USADO NAS CLASSES
+_77_Comparator
+_78_Predicate
+_79_Consumer
+_80_Function
+_81_FuncoesRecebendoFuncoes*/
 package entities;
 
 public class Produto7 {

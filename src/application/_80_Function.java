@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.stream.Collectors;
-
 import entities.Produto7;
 
 public class _80_Function {
