@@ -25,7 +25,7 @@ public class Produto7 {
 	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
-			// PREDICATE //
+					// PREDICATE //
 /* 2° MÉTODO //
 	public static boolean produtoPredicateStatic(Produto7 p) {
 		return p.getPreco() >= 100.0;
@@ -37,7 +37,9 @@ public class Produto7 {
 	}
 */
 ///////////////////////////////////////////////////////////////////////
-			// CONSUMER //
+///////////////////////////////////////////////////////////////////////
+	
+					// CONSUMER //
 /*2° MÉTODO //
 	public static void AtualizacaoPrecoStatic(Produto7 p) {
 		p.setPreco(p.getPreco() * 1.1);
@@ -46,6 +48,21 @@ public class Produto7 {
 /* 3° MÉTODO //
 	public void AtualizacaoPrecoNaoStatic() {
 		preco = preco * 1.1;
+	}
+*/
+	
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+	
+					// FUNCTION //
+/*2° MÉTODO //
+	public static String UpperCaseNomeStatic(Produto7 p) {
+		return p.getNome().toUpperCase();
+	}
+*/
+/* 3° MÉTODO //
+	public String UpperCaseNomeNaoStatic() {
+		return nome.toUpperCase();
 	}
 */
 
