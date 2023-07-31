@@ -64,7 +64,7 @@ public class _79_Consumer {
 	}
 }
 /*				CONSUMER
-	°Implementação:
+	° Implementação:
 	
 	public interface Consumer<T>{
 		void accept (T t);
