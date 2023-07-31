@@ -19,24 +19,31 @@ public class _78_Predicate {
 		lista.add(new Produto7("HD Case", 80.90));
 
 /*		1° MÉTODO - Definindo uma classe que implementa a interface 'Predicate<>'.
+ 
 		lista.removeIf(new ProdutoPredicate());
 		for(Produto7 p : lista) {
 			System.out.println(p);
 		}
+		
 ==================================================================================*/
 /*		2° MÉTODO - Definindo um 'Reference Method' com método estático.
+		
 		lista.removeIf(Produto7::produtoPredicateStatic);
 		for(Produto7 p : lista) {
 			System.out.println(p);
 		}
+		
 ==================================================================================*/
-/*		3° MÉTODO - Definindo um 'Reference M ethod' com método não estático.
+/*		3° MÉTODO - Definindo um 'Reference Method' com método não estático.
+		
 		lista.removeIf(Produto7::ProdutoPredicateNaoStatic);
 		for(Produto7 p : lista) {
 			System.out.println(p);
 		}
+		
 ==================================================================================*/
 /*		4° MÉTODO - Definindo uma expressão lambda declarada.
+		
 		double min = 100.0;
 		
 		Predicate<Produto7> pred = p -> p.getPreco() >= min; // Da pra pegar facilmente valores de variáveis.
@@ -45,6 +52,7 @@ public class _78_Predicate {
 		for(Produto7 p : lista) {
 			System.out.println(p);
 		}
+		
 ==================================================================================*/
 //		5° MÉTODO - Definindo uma expressão lambda inline.
 		
@@ -54,6 +62,7 @@ public class _78_Predicate {
 		for(Produto7 p : lista) {
 			System.out.println(p);
 		}
+		
 //==================================================================================*/
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
@@ -62,5 +71,14 @@ public class _78_Predicate {
 	}
 }
 /*				PREDICATE
-	° Fazer um programa que, a partir de uma lista de produtos, remova da lista somente aqueles cujo preço mínimo seja 100.
+	Implementação:
+	
+	public interface Predicate<T>{
+		boolean test(T t);
+	}
+	
+	
+	° PROBLEMA EXEMPLO: 
+		- Fazer um programa que, a partir de uma lista de produtos, remova da lista somente aqueles cujo preço mínimo seja 100.
+
 */

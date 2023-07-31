@@ -1,4 +1,4 @@
-//USADO NA CLASSE _77_Comparator e _78_Predicate //
+//USADO NA CLASSE _77_Comparator e _78_Predicate e _79_Consumer//
 package entities;
 
 public class Produto7 {
@@ -25,7 +25,7 @@ public class Produto7 {
 	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
-
+			// PREDICATE //
 /* 2° MÉTODO //
 	public static boolean produtoPredicateStatic(Produto7 p) {
 		return p.getPreco() >= 100.0;
@@ -36,6 +36,19 @@ public class Produto7 {
 		return preco >= 100.0;
 	}
 */
+///////////////////////////////////////////////////////////////////////
+			// CONSUMER //
+/*2° MÉTODO //
+	public static void AtualizacaoPrecoStatic(Produto7 p) {
+		p.setPreco(p.getPreco() * 1.1);
+	}
+*/
+/* 3° MÉTODO //
+	public void AtualizacaoPrecoNaoStatic() {
+		preco = preco * 1.1;
+	}
+*/
+
 	@Override
 	public String toString() {
 		return nome + ", " + String.format("%.2f", preco);
