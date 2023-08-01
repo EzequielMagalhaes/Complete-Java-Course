@@ -82,7 +82,7 @@ public class Exercicios_12 {
 	            }
 	        }
 	*/
-	/*5
+	//5
 	System.out.print("Digite um valor inteiro não negativo: ");
 	int n = sc.nextInt();
 	int fatorial = 1; //fatorial de zero é 1.
@@ -91,7 +91,7 @@ public class Exercicios_12 {
 		fatorial *= i;
     }
 	System.out.println("O fatorial de " + n + " é: " + fatorial);
-	*/
+
 	//6	
 	
 	//7
