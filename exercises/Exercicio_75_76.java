@@ -1,9 +1,7 @@
-package exercises;
-
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio_33 {
+public class Exercicio_75_76 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -13,7 +11,8 @@ public class Exercicio_33 {
 		System.out.println("Até a próxima =)");
 		sc.close();
 	}
-}EXERCÍCIO - TEM CORREÇÃO!
+}
+//EXERCÍCIO - TEM CORREÇÃO!
 /*1. Na contagem de votos de uma eleição, são gerados vários registros de votação contendo o nome do candidato e a quantidade de votos(formato .csv)
 que ele obteve em uma urna de votação. Você deve fazer um programa para ler os registros de votação a partir de um arquivo, e daí gerar um relatório 
 consolidado com os totais de cada candidato.

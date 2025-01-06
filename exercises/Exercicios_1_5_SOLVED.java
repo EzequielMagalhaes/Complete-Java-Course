@@ -1,5 +1,3 @@
-package exercises;
-
 import java.util.Locale;
 import java.util.Scanner;
 public class Exercicios_1_5_SOLVED {
@@ -9,10 +7,10 @@ public class Exercicios_1_5_SOLVED {
 	// 1.
 		System.out.printf("EXERCÍCIO 1%n");
 		int a;
-		System.out.println("Determine o valor de 'a':");
+		System.out.println("Determine o valor de 'A':");
 		a = sc.nextInt();
 		int b;
-		System.out.println("Determine o valor de 'a':");
+		System.out.println("Determine o valor de 'B':");
 		b = sc.nextInt();
 		int soma = a + b;
 		System.out.println("O valor da soma = " + soma);
