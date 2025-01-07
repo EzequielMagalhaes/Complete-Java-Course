@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicios_12 {
+public class Exercicios_12_SOLVED {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -61,38 +61,54 @@ public class Exercicios_12 {
 		}
 	*/
 	/*4
-		 System.out.print("Digite o número de pares a serem lidos: ");
-	        int quantidadePares = sc.nextInt();
-	        
-	        for (int i = 0; i < quantidadePares; i++) {
-	            System.out.println("Digite o par de números #" + (i+1) + ":");
-	            System.out.print("Número 1: ");
-	            int numero1 = sc.nextInt();
-	            
-	            System.out.print("Número 2: ");
-	            int numero2 = sc.nextInt();
-	            
-	            if (numero2 != 0) {
-	                int divisao = numero1 / numero2;
-	                System.out.println("Resultado da divisão: " + divisao);
-	            } else {
-	                System.out.println("Divisão impossível! Denominador é igual a zero.");
-	            }
-	        }
+		System.out.print("Digite o número de pares a serem lidos: ");
+			int quantidadePares = sc.nextInt();
+    
+			for (int i = 0; i < quantidadePares; i++) {
+			    System.out.println("Digite o par de números #" + (i+1) + ":");
+			    System.out.print("Número 1: ");
+			    int numero1 = sc.nextInt();
+			    
+			    System.out.print("Número 2: ");
+			    int numero2 = sc.nextInt();
+			    
+			    if (numero2 != 0) {
+			        int divisao = numero1 / numero2;
+			        System.out.println("Resultado da divisão: " + divisao);
+			    } else {
+			        System.out.println("Divisão impossível! Denominador é igual a zero.");
+			    }
+			}
 	*/
-	//5
-	System.out.print("Digite um valor inteiro não negativo: ");
-	int n = sc.nextInt();
-	int fatorial = 1; //fatorial de zero é 1.
-	
-	for (int i = n; i > 0; i--) {
-		fatorial *= i;
-    }
-	System.out.println("O fatorial de " + n + " é: " + fatorial);
-
-	//6	
-	
+	/*5
+		System.out.print("Digite um valor inteiro não negativo: ");
+		int n = sc.nextInt();
+		int fatorial = 1; //fatorial de zero é 1.
+		
+		for (int i = n; i > 0; i--) {
+			fatorial *= i;
+	    }
+		System.out.println("O fatorial de " + n + " é: " + fatorial);
+	*/
+	/*6	
+		System.out.println("Digite um número inteiro: ");
+		int n = sc.nextInt();
+		for(int i = 1; i <= n; i++) {
+			if(n % i == 0) {
+				System.out.println(i);
+			}
+		}
+	*/
 	//7
+		System.out.println("Digite um número inteiro positivo: ");
+		int n = sc.nextInt();
+		for (int i = 1; i <= n; i++) {
+			int primeiro = i;
+			int segundo = i*i; 
+			int terceiro = i*i*i;
+			System.out.printf("%d %d %d", primeiro, segundo, terceiro);
+			System.out.println();
+		}
 		System.out.println("===================================================================");
 		System.out.println("Programa terminou!");
 		System.out.println("Até a próxima =)");
